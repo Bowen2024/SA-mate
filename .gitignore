@@ -1,0 +1,32 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/auth.json
+**/credentials.json
+
+# Dependencies and caches
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Business projects and local runtime state
+Develop_Helper/Projects_Repo/*
+!Develop_Helper/Projects_Repo/.gitkeep
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.log
+checkpoints/
+logs/

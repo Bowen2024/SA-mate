@@ -1,0 +1,14 @@
+name = "planner"
+description = "技术方案及必要界面确认后由编排器实际派发，生成任务计划、依赖与并行安排；有前端时设置用户门禁，不改业务代码或重做产品设计。"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+你是 SDD Harness 的 Planner subagent。
+
+读取并严格执行：
+
+harness-core/agents/planner.md
+
+当前任务参数由 Orchestrator 提供。项目文件以传入的 active_project_path 为基准，只处理派发范围。
+不要在本 TOML 中维护 Planner 核心规则。
+"""

@@ -1,0 +1,9 @@
+{
+  "stage": "initialized",
+  "mode": "new",
+  "design_ready": false,
+  "development_ready": false,
+  "current_task": null,
+  "blocked": false,
+  "notes": ""
+}

@@ -1,0 +1,154 @@
+{
+  "project": "",
+  "project_type": "unknown",
+  "specification": null,
+  "created": "",
+  "max_retries": 2,
+  "execution_mode": "step_by_step",
+  "step_gate": {
+    "kind": "task_review",
+    "task_id": null,
+    "status": "pending",
+    "user_confirmation": null
+  },
+  "source_files": {
+    "prd": "docs/PRD.md",
+    "tech_spec": "docs/tech-spec.md"
+  },
+  "external_services": [],
+  "features": [
+    {
+      "id": "F-001",
+      "title": "完成示例需求对应的用户能力",
+      "source_requirements": [
+        "REQ-001"
+      ]
+    },
+    {
+      "id": "F-DELIVERY",
+      "title": "理解各页面功能及其接口算法与实现位置",
+      "source_requirements": [
+        "SDD-DELIVERY"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "前端 Mock 页面与整体收口",
+      "type": "frontend",
+      "description": "示例前端阶段；按项目拆分所有页面，真实 AC-001 由 T-002 承接。最后一个前端任务包含全部页面 Mock 收口与用户门禁。",
+      "source_feature": "F-001",
+      "acceptanceCriteria": [],
+      "technicalChecks": [
+        "按已确认风格与接口契约，在浏览器验证全部页面 Mock 主流程、等待与异常状态。"
+      ],
+      "externalServices": [],
+      "dependencies": [],
+      "priority": 1,
+      "context_files": [
+        {
+          "path": "docs/PRD.md",
+          "section": "REQ-001 示例需求"
+        },
+        {
+          "path": "docs/tech-spec.md",
+          "section": "二、前后端怎么分工，接口怎么拆 > API-001 示例接口"
+        }
+      ],
+      "rules_files": [],
+      "write_scope": [
+        "frontend/"
+      ],
+      "status": "pending",
+      "retry_count": 0,
+      "notes": "",
+      "user_gate": {
+        "kind": "frontend_mock_review",
+        "frontend_task_ids": [
+          "T-001"
+        ],
+        "required_services": [],
+        "status": "pending",
+        "user_confirmation": null,
+        "configuration_confirmation": null,
+        "rework_task_ids": []
+      }
+    },
+    {
+      "id": "T-002",
+      "title": "真实接口联调与用户功能验收",
+      "type": "integration",
+      "description": "按当前项目 PRD 与技术方案替换示例；前端用户门禁通过后验证真实用户结果。",
+      "source_feature": "F-001",
+      "acceptanceCriteria": [
+        "[AC-001] 用户完成 PRD 约定的操作并得到对应业务结果"
+      ],
+      "technicalChecks": [],
+      "externalServices": [],
+      "dependencies": [
+        "T-001"
+      ],
+      "priority": 2,
+      "context_files": [
+        {
+          "path": "docs/PRD.md",
+          "section": "REQ-001 示例需求"
+        },
+        {
+          "path": "docs/tech-spec.md",
+          "section": "二、前后端怎么分工，接口怎么拆 > API-001 示例接口"
+        }
+      ],
+      "rules_files": [],
+      "write_scope": [],
+      "status": "pending",
+      "retry_count": 0,
+      "notes": ""
+    },
+    {
+      "id": "T-003",
+      "title": "生成或刷新页面功能导航",
+      "type": "delivery",
+      "description": "按 project-delivery.md 从当前源码梳理页面→功能→流程→接口→算法/工具，字段包含参数、筛选、异常和实现依据。不输出旧六区状态看板。编号/依赖/context_files/脚本范围由 Planner 按实际项目补齐。",
+      "source_feature": "F-DELIVERY",
+      "acceptanceCriteria": [
+        "[DEL-001] 页面按实际页面/入口组织，功能卡片能导航与展开，桌面和窄屏无遮挡/整页溢出，不再展示旧六区管理看板。",
+        "[DEL-002] 每项功能说明触发、输入输出与带分支的前后端流程；接口 method/URL、请求响应字段及类型与代码对应，共享接口引用可到达。",
+        "[DEL-003] 核对关键算法的步骤、条件、参数单位/默认值/位置/影响、结果选择及异常；工具/Agent仅按实际存在的调用与观察循环呈现，不编造能力。",
+        "[DEL-004] 功能、接口和算法有可定位的实现来源及核对状态；设计、源码默认值、运行验证边界清晰。实际浏览器导航、展开、来源查看和路径复制/失败手选可用，无业务或付费调用。",
+        "[DEL-005] README 的刷新方式有效；隔离样例中源变更/缺失/解析错误明确反映，过期算法不继续标已核对；仅写导航产物，不改业务代码或原任务状态。"
+      ],
+      "technicalChecks": [
+        "浏览器检查页面导航、功能展开、接口跳转与路径复制、窄屏布局。",
+        "按源码核对关键算法、参数默认值与失败分支，核对 Agent/工具是否真实存在。",
+        "隔离样例验证刷新、源码变更待复核、缺失和格式错误提示。"
+      ],
+      "externalServices": [],
+      "dependencies": [
+        "T-001",
+        "T-002"
+      ],
+      "priority": 3,
+      "context_files": [
+        {
+          "path": ".sdd/project.json",
+          "section": "id"
+        },
+        {
+          "path": ".sdd/tasks.json",
+          "section": "tasks"
+        }
+      ],
+      "rules_files": [],
+      "write_scope": [
+        "docs/project-console.html",
+        "docs/project-map.json",
+        "README.md"
+      ],
+      "status": "pending",
+      "retry_count": 0,
+      "notes": ""
+    }
+  ]
+}

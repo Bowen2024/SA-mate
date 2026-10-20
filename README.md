@@ -1,6 +1,6 @@
 # SA-mate
 
-> 当前仓库先发布架构首页，源码和详细资料正在整理；下文阅读路径将在对应资料上传后提供链接。
+> 已发布：底层 SDD 固定源码快照、中文阅读指南与来源说明。融合设计、Runtime 和 Buzz 相关资料继续分批整理；未上传的资料仍标明待上传。
 
 以 SDD 为方法基础，支持需求、方案和 UI 独立交付，并逐步衔接规划、开发与独立验收的智能体协作框架。
 
@@ -32,7 +32,7 @@ flowchart TB
 
 ## 1. 底层 SDD：方法从哪里来
 
-SA-mate 以 Develop Helper 的 SDD（规格驱动开发）方法为基础。原框架的主线为：
+SA-mate 以 Develop Helper 的 SDD（规格驱动开发）方法为基础。本仓库已收录固定版本原框架与中文阅读指南，可从 [SDD 阅读入口](docs/sdd-foundation.md) 开始。
 
 ```text
 目标
@@ -45,17 +45,35 @@ SA-mate 以 Develop Helper 的 SDD（规格驱动开发）方法为基础。原�
   → 交付
 ```
 
-| 内容 | 作用 |
-| --- | --- |
-| Skills | 每类工作怎样开展 |
-| Agents | 执行角色的职责与边界 |
-| Protocols | 调度、门禁、返工、恢复和交付 |
-| Templates／Scripts | 形成成果、检查条件的辅助工具 |
-| 可选规范／PyCore | 具体业务项目按需使用的工程资产 |
+| 内容 | 作用 | 原文入口 |
+| --- | --- | --- |
+| Skills | 每类工作怎样开展 | [方法目录](Develop_Helper/harness-core/skills/) |
+| Agents | 执行角色的职责与边界 | [角色目录](Develop_Helper/harness-core/agents/) |
+| Protocols | 调度、门禁、返工、恢复和交付 | [协议目录](Develop_Helper/harness-core/protocols/) |
+| Templates／Scripts | 形成成果、检查条件的辅助工具 | [模板](Develop_Helper/templates/) · [脚本与测试](Develop_Helper/scripts/) |
+| 可选规范／PyCore | 具体业务项目按需使用的工程资产 | [规范说明](Develop_Helper/harness-core/specification/README.md) · [PyCore 文档](Develop_Helper/pycore/docs/index.md) |
 
-阅读指南负责帮助理解和定位；规则依据仍回到 `Develop_Helper/harness-core/` 原文。PyCore 是可选业务工程资产，工作流执行由独立 Runtime 承担。
+### 怎样阅读
 
-阅读：Develop Helper（`Develop_Helper/README.md`，待上传） · 中文阅读指南（`Develop_Helper_reading-guide/README.md`，待上传）
+1. **先理解全貌**：[中文阅读指南](Develop_Helper_reading-guide/README.md) → [整体流程](Develop_Helper_reading-guide/01-overview.md) → [从需求到交付的实例](Develop_Helper_reading-guide/06-walkthrough.md)。
+2. **再查职责与门禁**：[角色、文件与追踪关系](Develop_Helper_reading-guide/03-roles-and-artifacts.md) → [执行与门禁](Develop_Helper_reading-guide/04-execution-and-gates.md)。
+3. **核对原始规则**：[原文地图](Develop_Helper_reading-guide/07-source-map-and-notes.md) → 对应的 `Develop_Helper/harness-core/` 原文。
+
+阅读指南帮助理解和定位，规则依据仍回到上游原文。PyCore 是可选业务基础库；SA-mate 的持久工作流由独立 Runtime 承担。
+
+### 目录与版本
+
+```text
+Develop_Helper/                 固定提交的原框架源码
+Develop_Helper_reading-guide/   8 篇中文导航与解释
+docs/sdd-foundation.md         方法总览、目录地图与离线检查入口
+docs/upstream.md               来源、版本、范围与更新方式
+upstream/develop-helper-source.json 逐文件校验清单
+```
+
+本批采用普通源码快照，clone 后即含原文，无需初始化 submodule。上游固定提交为 `ec75f8f113402be73a415282dd274a8e3513f291`，共 169 个文件；项目登记与学习进度使用该提交的空白状态，不上传本机个人记录或业务项目。
+
+[Develop Helper 原始说明](Develop_Helper/README.md) · [来源与快照说明](docs/upstream.md) · [第三方来源说明](THIRD_PARTY_NOTICES.md)
 
 ## 2. 融合拆解：哪些保留，哪些改变
 

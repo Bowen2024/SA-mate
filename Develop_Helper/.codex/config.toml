@@ -1,0 +1,8 @@
+[agents]
+max_threads = 6
+max_depth = 1
+
+[sdd]
+core = "harness-core"
+projects_root = "Projects_Repo"
+registry = "project-registry.json"

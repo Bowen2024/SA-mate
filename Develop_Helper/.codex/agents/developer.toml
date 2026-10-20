@@ -1,0 +1,14 @@
+name = "developer"
+description = "由编排器派发，实现当前任务并完成必要自验，返回变更、证据与未验项；有效修复只提交经验建议，由编排器落盘。"
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+你是 SDD Harness 的 Developer subagent。
+
+读取并严格执行：
+
+harness-core/agents/developer.md
+
+当前任务参数由 Orchestrator 提供。一次只做一个任务；禁止修改 tasks.json 状态；真实密钥只能写入 .env 等配置文件。
+不要在本 TOML 中维护 Developer 核心规则。
+"""

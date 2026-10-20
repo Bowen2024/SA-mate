@@ -1,0 +1,1084 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "recorded_repository": "git@github.com:RiaHello/SDD.git",
+    "commit": "ec75f8f113402be73a415282dd274a8e3513f291",
+    "delivery": "git-archive-source-snapshot",
+    "file_count": 169,
+    "files": [
+      {
+        "path": ".agents/skills/git-workflow/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "aaae8805f5e07c5f61cfe9c34d9802786aded06b49e6e55ada632817480d24d9",
+        "size": 441
+      },
+      {
+        "path": ".agents/skills/project-management/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "812997928c5cab6cca9070f913992a57b11c38aff4a0472101f9cd3b99ee7b9e",
+        "size": 493
+      },
+      {
+        "path": ".agents/skills/sdd-bugfix/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "57ab1669cc9428c3a0e96f92e20c7ae65cdb0250bb35a2b6ac8f3f7b0fa16aa9",
+        "size": 390
+      },
+      {
+        "path": ".agents/skills/sdd-product-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "6430845e470a9fec46be43d69b3375f74b14e165e9dd72772777d5b78c999a88",
+        "size": 466
+      },
+      {
+        "path": ".agents/skills/solution-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "af8fe66040e0b6fbdbe142ea8ed7334bbbffead585c50a401193c9bf49876b35",
+        "size": 427
+      },
+      {
+        "path": ".agents/skills/technical-discussion/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "17b5e718ecc591d295846ccdb40da97399fb53668bc589bc289e190cdba98007",
+        "size": 440
+      },
+      {
+        "path": ".agents/skills/ui-design-standard/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "d1bb4553a1d22e088e56906ce8e88c73abdf504aa365ee3c496aee5674b5ba68",
+        "size": 453
+      },
+      {
+        "path": ".claude/CLAUDE.md",
+        "git_mode": "100644",
+        "sha256": "54c7953fa0dee3f4013de8f9a843a32acefc048a07d1b80dd9d68c0e0840d40a",
+        "size": 149
+      },
+      {
+        "path": ".claude/agents/developer.md",
+        "git_mode": "100644",
+        "sha256": "14f7db6d8dbb0996573fb9929978231c7f5017c31d151a4e5f4e518269254a32",
+        "size": 320
+      },
+      {
+        "path": ".claude/agents/planner.md",
+        "git_mode": "100644",
+        "sha256": "a802232a77903952e2dda7c4c9a25451b72a7f296131bade4b5affec7ebb86f0",
+        "size": 341
+      },
+      {
+        "path": ".claude/agents/solution-designer.md",
+        "git_mode": "100644",
+        "sha256": "6ed06583df59764e23247a07d35fe5add5d1ae8aad9498af6a4c8cb57389b98c",
+        "size": 477
+      },
+      {
+        "path": ".claude/agents/tester.md",
+        "git_mode": "100644",
+        "sha256": "0918af3102738ddb89e2ceaf5b34df68dc26966a7fe8fd25be4344606e5ba81d",
+        "size": 327
+      },
+      {
+        "path": ".claude/skills/git-workflow/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "aaae8805f5e07c5f61cfe9c34d9802786aded06b49e6e55ada632817480d24d9",
+        "size": 441
+      },
+      {
+        "path": ".claude/skills/project-management/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "812997928c5cab6cca9070f913992a57b11c38aff4a0472101f9cd3b99ee7b9e",
+        "size": 493
+      },
+      {
+        "path": ".claude/skills/sdd-bugfix/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "57ab1669cc9428c3a0e96f92e20c7ae65cdb0250bb35a2b6ac8f3f7b0fa16aa9",
+        "size": 390
+      },
+      {
+        "path": ".claude/skills/sdd-product-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "6430845e470a9fec46be43d69b3375f74b14e165e9dd72772777d5b78c999a88",
+        "size": 466
+      },
+      {
+        "path": ".claude/skills/solution-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "af8fe66040e0b6fbdbe142ea8ed7334bbbffead585c50a401193c9bf49876b35",
+        "size": 427
+      },
+      {
+        "path": ".claude/skills/technical-discussion/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "17b5e718ecc591d295846ccdb40da97399fb53668bc589bc289e190cdba98007",
+        "size": 440
+      },
+      {
+        "path": ".claude/skills/ui-design-standard/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "d1bb4553a1d22e088e56906ce8e88c73abdf504aa365ee3c496aee5674b5ba68",
+        "size": 453
+      },
+      {
+        "path": ".codex/README.md",
+        "git_mode": "100644",
+        "sha256": "ab3895a6baf94228abe3c7e3a328cdfa4c78fc08255f2d4fb35fabd242102293",
+        "size": 2040
+      },
+      {
+        "path": ".codex/agents/developer.toml",
+        "git_mode": "100644",
+        "sha256": "49ec520e0185c87b49103e6514104a81b5a8689af593ab7a9d08a6c4fa2170bf",
+        "size": 572
+      },
+      {
+        "path": ".codex/agents/planner.toml",
+        "git_mode": "100644",
+        "sha256": "0b0a915c5e4f3518a67c6c570d45ddea63ca55cfea78791fe84b5292e251402b",
+        "size": 564
+      },
+      {
+        "path": ".codex/agents/solution-designer.toml",
+        "git_mode": "100644",
+        "sha256": "315acc1003e827ec6ad5ef2fcd599d2c81e0a0fd8b469f82bd0cf88b0ccd1bed",
+        "size": 601
+      },
+      {
+        "path": ".codex/agents/tester.toml",
+        "git_mode": "100644",
+        "sha256": "61823b621b2e19daca3ff95044ade1169a051354a2785c8985dddb5e78679f2e",
+        "size": 560
+      },
+      {
+        "path": ".codex/config.toml",
+        "git_mode": "100644",
+        "sha256": "228b40d254a84692d611f9355532af261144a3cad3df8716df7e8d5b1fe099fe",
+        "size": 135
+      },
+      {
+        "path": ".codex/skills/git-workflow/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "aaae8805f5e07c5f61cfe9c34d9802786aded06b49e6e55ada632817480d24d9",
+        "size": 441
+      },
+      {
+        "path": ".codex/skills/project-management/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "812997928c5cab6cca9070f913992a57b11c38aff4a0472101f9cd3b99ee7b9e",
+        "size": 493
+      },
+      {
+        "path": ".codex/skills/sdd-bugfix/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "57ab1669cc9428c3a0e96f92e20c7ae65cdb0250bb35a2b6ac8f3f7b0fa16aa9",
+        "size": 390
+      },
+      {
+        "path": ".codex/skills/sdd-product-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "6430845e470a9fec46be43d69b3375f74b14e165e9dd72772777d5b78c999a88",
+        "size": 466
+      },
+      {
+        "path": ".codex/skills/solution-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "af8fe66040e0b6fbdbe142ea8ed7334bbbffead585c50a401193c9bf49876b35",
+        "size": 427
+      },
+      {
+        "path": ".codex/skills/technical-discussion/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "17b5e718ecc591d295846ccdb40da97399fb53668bc589bc289e190cdba98007",
+        "size": 440
+      },
+      {
+        "path": ".codex/skills/ui-design-standard/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "d1bb4553a1d22e088e56906ce8e88c73abdf504aa365ee3c496aee5674b5ba68",
+        "size": 453
+      },
+      {
+        "path": ".cursor/agents/developer.md",
+        "git_mode": "100644",
+        "sha256": "7b52897e6468dbddfa9a461f18d90824d130a8890c89cebeda7c4eceac9ea741",
+        "size": 466
+      },
+      {
+        "path": ".cursor/agents/planner.md",
+        "git_mode": "100644",
+        "sha256": "7e9d82d66320fa862000e31222fa61177b0db1f0f2f6915573802abce943fc14",
+        "size": 485
+      },
+      {
+        "path": ".cursor/agents/solution-designer.md",
+        "git_mode": "100644",
+        "sha256": "c2bad01c06305a61fe7326459ae99762e3db0b973996ca17d24e3e4208077d55",
+        "size": 505
+      },
+      {
+        "path": ".cursor/agents/tester.md",
+        "git_mode": "100644",
+        "sha256": "fe92e19daf62c1d330c182e5619dc63b51a399652f1d55cff51ae6af3fae54ad",
+        "size": 469
+      },
+      {
+        "path": ".cursor/rules/00-harness-router.mdc",
+        "git_mode": "100644",
+        "sha256": "121c131cd12d5b34e84dd7aead16d4f2e1f1e0130d10ba0e295423574eab9f4d",
+        "size": 259
+      },
+      {
+        "path": ".cursor/skills/git-workflow/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "aaae8805f5e07c5f61cfe9c34d9802786aded06b49e6e55ada632817480d24d9",
+        "size": 441
+      },
+      {
+        "path": ".cursor/skills/project-management/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "812997928c5cab6cca9070f913992a57b11c38aff4a0472101f9cd3b99ee7b9e",
+        "size": 493
+      },
+      {
+        "path": ".cursor/skills/sdd-bugfix/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "57ab1669cc9428c3a0e96f92e20c7ae65cdb0250bb35a2b6ac8f3f7b0fa16aa9",
+        "size": 390
+      },
+      {
+        "path": ".cursor/skills/sdd-product-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "6430845e470a9fec46be43d69b3375f74b14e165e9dd72772777d5b78c999a88",
+        "size": 466
+      },
+      {
+        "path": ".cursor/skills/sdd-product-design/phase-A.md",
+        "git_mode": "100644",
+        "sha256": "2839b6f0db92047eb92ef60f6bead5ab37317350eaa9804f7cff8bfdc13ee9c7",
+        "size": 108
+      },
+      {
+        "path": ".cursor/skills/sdd-product-design/phase-B.md",
+        "git_mode": "100644",
+        "sha256": "53d3e402345a6b8c9197bc5d278c84549a56a5609514099a8bcd2f41009da4e1",
+        "size": 101
+      },
+      {
+        "path": ".cursor/skills/sdd-product-design/phase-R.md",
+        "git_mode": "100644",
+        "sha256": "522f4935a51ffec2329e4de6666a308802c3143c94d2879681abcc44974c22b9",
+        "size": 108
+      },
+      {
+        "path": ".cursor/skills/solution-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "af8fe66040e0b6fbdbe142ea8ed7334bbbffead585c50a401193c9bf49876b35",
+        "size": 427
+      },
+      {
+        "path": ".cursor/skills/technical-discussion/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "17b5e718ecc591d295846ccdb40da97399fb53668bc589bc289e190cdba98007",
+        "size": 440
+      },
+      {
+        "path": ".cursor/skills/ui-design-standard/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "d1bb4553a1d22e088e56906ce8e88c73abdf504aa365ee3c496aee5674b5ba68",
+        "size": 453
+      },
+      {
+        "path": ".gitignore",
+        "git_mode": "100644",
+        "sha256": "ae311d8e557a8805f5b3e478179e6214367bdc743097ef74ac94a6e5e3feb375",
+        "size": 370
+      },
+      {
+        "path": "AGENTS.md",
+        "git_mode": "100644",
+        "sha256": "54c7953fa0dee3f4013de8f9a843a32acefc048a07d1b80dd9d68c0e0840d40a",
+        "size": 149
+      },
+      {
+        "path": "PACKAGING_NOTES.md",
+        "git_mode": "100644",
+        "sha256": "6aeb9ae0d085dd37401b533e8d75c58fefc9eb2e73f9f8e0d5c994cc85b62d78",
+        "size": 1288
+      },
+      {
+        "path": "Projects_Repo/.gitkeep",
+        "git_mode": "100644",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "README.md",
+        "git_mode": "100644",
+        "sha256": "2196c0f63f47817686ec674b9a489ed100a66779c1adacf8027faf3e4947bb5e",
+        "size": 3456
+      },
+      {
+        "path": "harness-core/agents/developer.md",
+        "git_mode": "100644",
+        "sha256": "92ea47e35efe6b80de036ddc3b5753b679fcdfc8e6e348299a280020d6fa6027",
+        "size": 13588
+      },
+      {
+        "path": "harness-core/agents/planner.md",
+        "git_mode": "100644",
+        "sha256": "1f6f18a9242366940de4b09d4228979aa284df75046ba14702545c635094f5bf",
+        "size": 19171
+      },
+      {
+        "path": "harness-core/agents/solution-designer.md",
+        "git_mode": "100644",
+        "sha256": "ac886924858880c3bf3be0e8cc07b9988e564147174a9bf4673bae61a43e8aef",
+        "size": 1064
+      },
+      {
+        "path": "harness-core/agents/tester.md",
+        "git_mode": "100644",
+        "sha256": "5358ce6b20c7e0a45856ac59935c7f474acb21ca0e8c6bfd863ba115313b435d",
+        "size": 14127
+      },
+      {
+        "path": "harness-core/protocols/codex-subagents.md",
+        "git_mode": "100644",
+        "sha256": "09c5abc623161cdbf9b600db85650faaab50278f98ae13a439f874c339490aed",
+        "size": 4100
+      },
+      {
+        "path": "harness-core/protocols/development-loop.md",
+        "git_mode": "100644",
+        "sha256": "4ebb29b32b5fd1560fe6391d278c1d5e82da75a9accc7d2173f219dfd9b39b43",
+        "size": 22055
+      },
+      {
+        "path": "harness-core/protocols/development-rules.md",
+        "git_mode": "100644",
+        "sha256": "818f197eb17fb680d302b2fdd5e3b87e154464ed176b82ca87399689ae297d4f",
+        "size": 2231
+      },
+      {
+        "path": "harness-core/protocols/execution-mode.md",
+        "git_mode": "100644",
+        "sha256": "8dc495c9b3bb62086c4f10a2016e41cf7dbf46216cdf8801f7d49ffa73b39082",
+        "size": 6107
+      },
+      {
+        "path": "harness-core/protocols/experience-loop.md",
+        "git_mode": "100644",
+        "sha256": "1a1f8c29f73641f998a74ca11e75a8b3cac8d75a08a929d2f1567b9dc511c6d2",
+        "size": 5814
+      },
+      {
+        "path": "harness-core/protocols/frontend-gate.md",
+        "git_mode": "100644",
+        "sha256": "0f76121267568af09bdbca1af5869cb154c8357ddd1eda386809c76d9abef02c",
+        "size": 5265
+      },
+      {
+        "path": "harness-core/protocols/platform-adapters.md",
+        "git_mode": "100644",
+        "sha256": "9fd81939ba335fb555bc271e635eaa34e80b58cdfe8c20c73ecdc09aae6b3caa",
+        "size": 1058
+      },
+      {
+        "path": "harness-core/protocols/project-delivery.md",
+        "git_mode": "100644",
+        "sha256": "24ecf434db5e08323e52b838e528217781758b822a7c2aa82707588147483d8b",
+        "size": 6542
+      },
+      {
+        "path": "harness-core/router.md",
+        "git_mode": "100644",
+        "sha256": "1449e8499336c7f9b1c5356284051d3fb19259614d0726896355129efc9c931a",
+        "size": 2904
+      },
+      {
+        "path": "harness-core/skills/git-workflow/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "6fefdb792597d9d1e3d9e34d46e441a61f63c731f18bbda2077816534a0f9fa9",
+        "size": 4705
+      },
+      {
+        "path": "harness-core/skills/project-management/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "d88c1086bb435c0f10c7a7f9eec05e074bd360f2096ce77483effdf8acfcaa88",
+        "size": 4786
+      },
+      {
+        "path": "harness-core/skills/project-management/references/modify-project.md",
+        "git_mode": "100644",
+        "sha256": "c99afabd860b911ea731d864e76baab784fb41404a04f48d76e60b8ddcdc7beb",
+        "size": 3140
+      },
+      {
+        "path": "harness-core/skills/project-management/references/onboard-project.md",
+        "git_mode": "100644",
+        "sha256": "43ba38aea94170e100f2e91ce1c43fb37785a7c16b9e5bf96476bf6b6a975c6a",
+        "size": 3722
+      },
+      {
+        "path": "harness-core/skills/project-management/references/remove-reset-project.md",
+        "git_mode": "100644",
+        "sha256": "80d6910b22a77fb9bec4bc5996806c7b32ebea14b5f63e07d36b26a7153f69f4",
+        "size": 2831
+      },
+      {
+        "path": "harness-core/skills/sdd-bugfix/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "8aa474a0afa968c830e03f9fc14048ae48728df9643d77bcc95d2341cd871d94",
+        "size": 3012
+      },
+      {
+        "path": "harness-core/skills/sdd-product-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "357cfa3ac8c53c94d8df2380840d9eed56a7d4ffa14323ffe5414ea265a69ed1",
+        "size": 10852
+      },
+      {
+        "path": "harness-core/skills/sdd-product-design/phase-A.md",
+        "git_mode": "100644",
+        "sha256": "1f894c9730f009b76ff558669db50af41d7eced2087ae3845c4fa80491eca316",
+        "size": 7920
+      },
+      {
+        "path": "harness-core/skills/sdd-product-design/phase-B.md",
+        "git_mode": "100644",
+        "sha256": "1656f406355959050842e1c92bfba781503c33225ee40dfb564c51769611edce",
+        "size": 5023
+      },
+      {
+        "path": "harness-core/skills/sdd-product-design/phase-R.md",
+        "git_mode": "100644",
+        "sha256": "97fccdaf310a1a5e19dadb29a5afb615d1ecb4a8e21d4c660132e7e49b82e5f5",
+        "size": 3769
+      },
+      {
+        "path": "harness-core/skills/sdd-product-design/references/research-template.md",
+        "git_mode": "100644",
+        "sha256": "165d133eda370ce7e00c3b0e8c2510b50f2f094337ce63421632874affc6fc35",
+        "size": 2182
+      },
+      {
+        "path": "harness-core/skills/solution-design/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "bf9ecdd8b074596505fbaa2738e011749c576bc0783497216b9c62dee6762841",
+        "size": 7303
+      },
+      {
+        "path": "harness-core/skills/solution-design/references/decision-record-template.md",
+        "git_mode": "100644",
+        "sha256": "41d2cd5b4e5b0f3ceef99568d44f09c97ebe642bc2cdd87001c7b6d2811f10b6",
+        "size": 1985
+      },
+      {
+        "path": "harness-core/skills/solution-design/references/interface-experience-review.md",
+        "git_mode": "100644",
+        "sha256": "f19c94f604c1635e342b6d22b18a1fa6fedbf5ed654d01d9d8802d49dc68255b",
+        "size": 5623
+      },
+      {
+        "path": "harness-core/skills/solution-design/references/tech-spec-template.md",
+        "git_mode": "100644",
+        "sha256": "338b80d2a97a883d434a12cfa411932262aa20e0acd536eba89db3bf86741df6",
+        "size": 6957
+      },
+      {
+        "path": "harness-core/skills/technical-discussion/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "3f7fd9f804aa472c5b5e7353ff051270d4fd1bdc179868fc1fc9f23f392e6c87",
+        "size": 4354
+      },
+      {
+        "path": "harness-core/skills/technical-discussion/references/term-learning.md",
+        "git_mode": "100644",
+        "sha256": "4adc7f5cd9d63772529f5b05ebc29567a0c2805060756a74299e41db6c5934f4",
+        "size": 4352
+      },
+      {
+        "path": "harness-core/skills/ui-design-standard/SKILL.md",
+        "git_mode": "100644",
+        "sha256": "6fad7c07f39c49b75314635199f9a8dcaa2570dcb7c3af45260dcb6394f5f9f1",
+        "size": 5627
+      },
+      {
+        "path": "harness-core/skills/ui-design-standard/references/ui-style-template.md",
+        "git_mode": "100644",
+        "sha256": "cdcaab1231a873928e5bc4b90fcedd1970c0c5da77ac8424fdd92a51fead9cea",
+        "size": 7066
+      },
+      {
+        "path": "harness-core/specification/README.md",
+        "git_mode": "100644",
+        "sha256": "27de271f556b75652712b66045dab9e018e02e4e98a349094608ad64dc4ad2a0",
+        "size": 4627
+      },
+      {
+        "path": "harness-core/specification/default/backend/api-design.md",
+        "git_mode": "100644",
+        "sha256": "765a6e7436b962bacc5612160bacab9417d2bba2ae096923a637fdd78cc7266c",
+        "size": 7903
+      },
+      {
+        "path": "harness-core/specification/default/backend/error-handling.md",
+        "git_mode": "100644",
+        "sha256": "715475f379906717e7356547d6103eedffe615a0d7c0c851e7b8b2d872b78769",
+        "size": 2080
+      },
+      {
+        "path": "harness-core/specification/default/backend/layers.md",
+        "git_mode": "100644",
+        "sha256": "d157b22a5a3ad2305b2c94ca3933e51711161cdf4866d52f2b7fbebea801dbc4",
+        "size": 7033
+      },
+      {
+        "path": "harness-core/specification/default/backend/plugin.md",
+        "git_mode": "100644",
+        "sha256": "1b154bc29bf71b4736171d893b2e8540ae81cdbe47c081db11aa0a483afa6c75",
+        "size": 2873
+      },
+      {
+        "path": "harness-core/specification/default/backend/tech-stack.md",
+        "git_mode": "100644",
+        "sha256": "4c6ac52d387670aefd05240f9c8226ae470914da4ed72576f30830fa1d6b9e54",
+        "size": 14698
+      },
+      {
+        "path": "harness-core/specification/default/backend/workflow.md",
+        "git_mode": "100644",
+        "sha256": "90f6a75ed0a43a7c4bf182dd5509f395f7c7eab91b6ae6403936f3fe16551752",
+        "size": 5710
+      },
+      {
+        "path": "harness-core/specification/default/frontend/acceptance.md",
+        "git_mode": "100644",
+        "sha256": "5c5dea3926c6b875045a50563943fb78bbe2756205d4e44ee07257675cf011fb",
+        "size": 3174
+      },
+      {
+        "path": "harness-core/specification/default/frontend/api-client.md",
+        "git_mode": "100644",
+        "sha256": "132c9d00ddfd21b624f3ba12f4bf5af2f806ab20d61861dc4b12a882c69f4db1",
+        "size": 6162
+      },
+      {
+        "path": "harness-core/specification/default/frontend/mock.md",
+        "git_mode": "100644",
+        "sha256": "1d27bd796cb50fce032d70361effe1e50fbac2040adbd8dde3ce557e7d6f6949",
+        "size": 3887
+      },
+      {
+        "path": "harness-core/specification/default/frontend/style.md",
+        "git_mode": "100644",
+        "sha256": "094c38095b53fdd148a3f8e3b8b5f194e87227d6249c76ec4ddcd808f11d053c",
+        "size": 3349
+      },
+      {
+        "path": "harness-core/specification/default/frontend/tech-stack.md",
+        "git_mode": "100644",
+        "sha256": "27e68232b65e9cb22dbcb10e43207c7b15404cecf8b74bd1fa6062fb89404638",
+        "size": 2697
+      },
+      {
+        "path": "harness-core/specification/default/shared/env-policy.md",
+        "git_mode": "100644",
+        "sha256": "b406d61ba36def43808ba7080f706b9c5e42c4b8fe67bd609e40ef57fa09a9dd",
+        "size": 3016
+      },
+      {
+        "path": "harness-core/specification/default/shared/naming.md",
+        "git_mode": "100644",
+        "sha256": "5a7e6689725c7f252d7f872ee0a612289107fd979dcd7cebdb0e48df4f25f397",
+        "size": 2421
+      },
+      {
+        "path": "harness-core/specification/default/shared/security.md",
+        "git_mode": "100644",
+        "sha256": "f6d83aed917c8943177ac40ac345a44ab1e592db55d350ad51347f0950eb7d53",
+        "size": 2819
+      },
+      {
+        "path": "learning/technical-terms/glossary.md",
+        "git_mode": "100644",
+        "sha256": "94124a35699f931f20395b355f60846e736fdcce95d0aeb230cc6f0fe1f3f813",
+        "size": 197
+      },
+      {
+        "path": "learning/technical-terms/index.md",
+        "git_mode": "100644",
+        "sha256": "130c334c108b831ecc69d953fda97d982f8cb2bc0dfe3037ec14500148ce95c7",
+        "size": 315
+      },
+      {
+        "path": "memory/harness-experience.md",
+        "git_mode": "100644",
+        "sha256": "f57648a94896d298142e81c26d82c279dadaf4119c06fef39a51e27f7539c638",
+        "size": 16808
+      },
+      {
+        "path": "project-registry.json",
+        "git_mode": "100644",
+        "sha256": "0bd65aaea09b07258132775263271365288176a9f7201f640719e31437016dbf",
+        "size": 102
+      },
+      {
+        "path": "pycore/__init__.py",
+        "git_mode": "100644",
+        "sha256": "3f7ff83fe65de224e0e2e2b4c38645b461385049cc0b603713bc5a65e44410d7",
+        "size": 929
+      },
+      {
+        "path": "pycore/api/__init__.py",
+        "git_mode": "100644",
+        "sha256": "19bdd059eb9ab8a62e01f5af5122d0fcbe27d1cd25d2d0ce25312e7323f15987",
+        "size": 843
+      },
+      {
+        "path": "pycore/api/deps.py",
+        "git_mode": "100644",
+        "sha256": "b71d18a1e51c7a7b2d99c76cec6b93c29eb0d943445516b88a71ba928cf4a4ab",
+        "size": 1561
+      },
+      {
+        "path": "pycore/api/middleware.py",
+        "git_mode": "100644",
+        "sha256": "0b0980d35a872dc31448497fae0b4d09a2bdf3fde17d4b0c7cac8d3f0d5ed820",
+        "size": 5473
+      },
+      {
+        "path": "pycore/api/responses.py",
+        "git_mode": "100644",
+        "sha256": "f3a049928de975944d7de64629ba2e04671874d9ef8f4f0d9b131cb349ea5940",
+        "size": 3470
+      },
+      {
+        "path": "pycore/api/routes.py",
+        "git_mode": "100644",
+        "sha256": "1633c6ef6faac5ae5b5a1f58a78327fefc0dc82f78403caec16a1133762494da",
+        "size": 5736
+      },
+      {
+        "path": "pycore/api/server.py",
+        "git_mode": "100644",
+        "sha256": "0de00fb2c43eaaaa4f80a995e9a8e1465e1572b7a713bd5f55fbec1d54526200",
+        "size": 7240
+      },
+      {
+        "path": "pycore/core/__init__.py",
+        "git_mode": "100644",
+        "sha256": "c7bf57ad8c4db1473c60e804dee06818a06a8056a57787e3c924049f3215a5c0",
+        "size": 803
+      },
+      {
+        "path": "pycore/core/config.py",
+        "git_mode": "100644",
+        "sha256": "2c0b22eaae1e28ea2fbb2a68ed7b7784dd37b2f6d3d559bd6205ba453d16aeba",
+        "size": 9613
+      },
+      {
+        "path": "pycore/core/exceptions.py",
+        "git_mode": "100644",
+        "sha256": "a23f6848dcf613a360b583c3f047533f43adf17064f85ed36b6c28090936add3",
+        "size": 6525
+      },
+      {
+        "path": "pycore/core/logger.py",
+        "git_mode": "100644",
+        "sha256": "298974a8a14e82e9ffc19260023273823e431fae322635d91c43b783b55134d3",
+        "size": 7563
+      },
+      {
+        "path": "pycore/core/schema.py",
+        "git_mode": "100644",
+        "sha256": "ac125a4c2995fca12b3716073fc9a791afaaf8f0c181f2fc173daf23e0b24b65",
+        "size": 4588
+      },
+      {
+        "path": "pycore/docs/api.md",
+        "git_mode": "100644",
+        "sha256": "ef575da7ea14f038a8c5ac690280438b658dd344f7f2c4a85e7d73d9cb48a3f4",
+        "size": 10030
+      },
+      {
+        "path": "pycore/docs/core.md",
+        "git_mode": "100644",
+        "sha256": "c5322d05baf6dc03c715050bc69ae82800b973eed4a765293c31928451f428e0",
+        "size": 11240
+      },
+      {
+        "path": "pycore/docs/examples.md",
+        "git_mode": "100644",
+        "sha256": "72229e108d232215f02b5308af3bc0ecdd51ab4ab666664c582540bbe7c6df01",
+        "size": 12188
+      },
+      {
+        "path": "pycore/docs/execution.md",
+        "git_mode": "100644",
+        "sha256": "59e058dbefe9eba9d70d8bb18ba25c4520afc30f606a364193b30d2694c074ec",
+        "size": 14232
+      },
+      {
+        "path": "pycore/docs/getting-started.md",
+        "git_mode": "100644",
+        "sha256": "909ad97593f4863b29a8e736bd1cd4e433bf37aa69a1d5e94255263572e25326",
+        "size": 5748
+      },
+      {
+        "path": "pycore/docs/index.md",
+        "git_mode": "100644",
+        "sha256": "6072b13258a79daa09fc18b156c152bb66e8a8a782104aba2ba4ff249d087696",
+        "size": 1976
+      },
+      {
+        "path": "pycore/docs/llm.md",
+        "git_mode": "100644",
+        "sha256": "a58a0a3a5d5bcde38d56c7fe55737af47774067ec5a080e7ec62797e1eeb961c",
+        "size": 13155
+      },
+      {
+        "path": "pycore/docs/plugins.md",
+        "git_mode": "100644",
+        "sha256": "4f8955b9e1a27433aad46241aaddc72ba765dc684faa5584a3531935758f9535",
+        "size": 14106
+      },
+      {
+        "path": "pycore/docs/services.md",
+        "git_mode": "100644",
+        "sha256": "a065f1a4825d26af8c4dba03ad0848503f0f8b248f596dfa05a874e5144051d0",
+        "size": 14405
+      },
+      {
+        "path": "pycore/docs/specs/api.md",
+        "git_mode": "100644",
+        "sha256": "2d10f6eb4e1e1a0f4486c4202dd644ad5dc4c09924f9e26e47627d84c4be1e72",
+        "size": 3897
+      },
+      {
+        "path": "pycore/docs/specs/core.md",
+        "git_mode": "100644",
+        "sha256": "9a2857f5f4685f955647996dece07964c4d083b66f8ee198d23d1b53a96bb375",
+        "size": 3642
+      },
+      {
+        "path": "pycore/docs/specs/env.example",
+        "git_mode": "100644",
+        "sha256": "fcc8663be19ec55138d634d21325d601cea98703a41ce13e5f95aa28f07f0415",
+        "size": 572
+      },
+      {
+        "path": "pycore/docs/specs/index.md",
+        "git_mode": "100644",
+        "sha256": "d8c0b7b5ac3bf91e000b9528759db1e648c9f9f95bdf02bc35653fa0ee3d6838",
+        "size": 2130
+      },
+      {
+        "path": "pycore/docs/specs/plugins.md",
+        "git_mode": "100644",
+        "sha256": "ba0335b193b796b269df87e305480cbcfed198dc6f0532a97dbc61351a6ebb99",
+        "size": 3156
+      },
+      {
+        "path": "pycore/docs/specs/services.md",
+        "git_mode": "100644",
+        "sha256": "d986500f4ae2331d9e37fb0588869d545afd4a5b5b71e47ef40c12f18715ab10",
+        "size": 4305
+      },
+      {
+        "path": "pycore/execution/__init__.py",
+        "git_mode": "100644",
+        "sha256": "c9a164692883e3bc5b15e634a616a8e7345398633f74d287c51129d65727b5c1",
+        "size": 487
+      },
+      {
+        "path": "pycore/execution/context.py",
+        "git_mode": "100644",
+        "sha256": "170b9d107afcb95be22b014237babef51440521d10b8da47f7e572b60a3db7af",
+        "size": 4224
+      },
+      {
+        "path": "pycore/execution/flow.py",
+        "git_mode": "100644",
+        "sha256": "865a126ba300316154dfc2fa5440d426bd0210edd5106953720ce4b662b4b4d4",
+        "size": 9831
+      },
+      {
+        "path": "pycore/integrations/__init__.py",
+        "git_mode": "100644",
+        "sha256": "6911bd85c91cae3aeb9f1c28ab7aa7806140403d9ed607141a5979a067c97121",
+        "size": 680
+      },
+      {
+        "path": "pycore/integrations/cache/__init__.py",
+        "git_mode": "100644",
+        "sha256": "c1af623d11f72340b646ab57d1fd946164fb5662c2eb4e9b882609a666a220cb",
+        "size": 211
+      },
+      {
+        "path": "pycore/integrations/cache/base.py",
+        "git_mode": "100644",
+        "sha256": "b17fff37b8be11d5562f1402b325d1cff934eabe3fc606a7d2acc08271224695",
+        "size": 3624
+      },
+      {
+        "path": "pycore/integrations/db/__init__.py",
+        "git_mode": "100644",
+        "sha256": "d88de11b8c87c7fd8928afea55bc0bcdaf4b57d81d828ab86d5ae37d93d760de",
+        "size": 226
+      },
+      {
+        "path": "pycore/integrations/db/base.py",
+        "git_mode": "100644",
+        "sha256": "6962dd6ee2ad5885ae64edcbab219b1961ca1e1915e734dd7f6102d3e957ff58",
+        "size": 2573
+      },
+      {
+        "path": "pycore/integrations/db/models.py",
+        "git_mode": "100644",
+        "sha256": "3dceb494530caa01c0719ce1a808559c499ac8d218f4dc905717cb4f0d85041d",
+        "size": 1149
+      },
+      {
+        "path": "pycore/integrations/db/session.py",
+        "git_mode": "100644",
+        "sha256": "0e6ee5dafc34fa39c15bfa962e98424d7e97f29de717ab1f2122043d9173377c",
+        "size": 1849
+      },
+      {
+        "path": "pycore/integrations/llm/__init__.py",
+        "git_mode": "100644",
+        "sha256": "0681df7c9cbe250ca61d110dac0faf0a087d5498fa686a36d9ad9be92db9ae68",
+        "size": 1475
+      },
+      {
+        "path": "pycore/integrations/llm/base.py",
+        "git_mode": "100644",
+        "sha256": "f0278fa9d3c0405c7886ef895e9b19a605208535cc54a05d8ff852cc4c0ffaa1",
+        "size": 8741
+      },
+      {
+        "path": "pycore/integrations/llm/openai_provider.py",
+        "git_mode": "100644",
+        "sha256": "e1dc708804653217bc3630afc505cfbb2543709a4baf0a1d66ae2144435d3588",
+        "size": 8892
+      },
+      {
+        "path": "pycore/integrations/llm/token_counter.py",
+        "git_mode": "100644",
+        "sha256": "81cc05516f89dcd30bae7832ec2c28f2f8f219a23afb3710b98590daae633886",
+        "size": 6600
+      },
+      {
+        "path": "pycore/plugins/__init__.py",
+        "git_mode": "100644",
+        "sha256": "ed863296df084255b8c135efcd7e6be6a3a7d2b91d7b429ba6252d8b387bae1b",
+        "size": 379
+      },
+      {
+        "path": "pycore/plugins/base.py",
+        "git_mode": "100644",
+        "sha256": "fb147e250910d4e142341754fb16b547dc88d34d9f1f0a2a9840a963684eec40",
+        "size": 5887
+      },
+      {
+        "path": "pycore/plugins/registry.py",
+        "git_mode": "100644",
+        "sha256": "d870a8e4d66557cffacc97e77edf09fafb0d9872834c40e7c11681a110476dfe",
+        "size": 5783
+      },
+      {
+        "path": "pycore/services/__init__.py",
+        "git_mode": "100644",
+        "sha256": "be43f7ec91b17760585301145ffd1e026b61692f94e00f3f590da15be0ee95ab",
+        "size": 743
+      },
+      {
+        "path": "pycore/services/agent.py",
+        "git_mode": "100644",
+        "sha256": "260b105668b3565bdcaf36055101e1c1aa781e9641c24fdb7d781d717ca58815",
+        "size": 10503
+      },
+      {
+        "path": "pycore/services/base.py",
+        "git_mode": "100644",
+        "sha256": "c091628c1259aa15ed2ce5f8fa279c51b89d19dff528d6b089b66ea2d8c20260",
+        "size": 4012
+      },
+      {
+        "path": "pycore/services/simple.py",
+        "git_mode": "100644",
+        "sha256": "d373f28402c41f1c2cb82dff93392cccf0e2430b974553530862a22d4553b4df",
+        "size": 1826
+      },
+      {
+        "path": "pycore/services/state.py",
+        "git_mode": "100644",
+        "sha256": "750f55d3e5f5a64c7bcf3c9cface70673e15cdb008979a07e22921bbe778ed3f",
+        "size": 5437
+      },
+      {
+        "path": "pyproject.toml",
+        "git_mode": "100644",
+        "sha256": "3caa7da9445d99ebfe59aebbbcad522ace290987f09800bee28019034c1e0461",
+        "size": 1470
+      },
+      {
+        "path": "scripts/check_harness_consistency.py",
+        "git_mode": "100644",
+        "sha256": "4e65c1e455b1223827ffab0845c8cdd98a025570e957670282dedbede17f6172",
+        "size": 13517
+      },
+      {
+        "path": "scripts/sdd_dispatch.py",
+        "git_mode": "100644",
+        "sha256": "4f0e4dd837b31bdf405335c3329463f03f5881d91a417e4cc5a1dafe98966d2a",
+        "size": 13135
+      },
+      {
+        "path": "scripts/sdd_project.py",
+        "git_mode": "100755",
+        "sha256": "b184878e2f87f8521bb08a86359cece96d1032ea75ca1f8fd1c2027fd9887263",
+        "size": 21126
+      },
+      {
+        "path": "scripts/tests/test_harness_consistency.py",
+        "git_mode": "100644",
+        "sha256": "6c69c00c00b4d2abb188381f52b5f7ee842af7742508428ce254c7c70d34202d",
+        "size": 11662
+      },
+      {
+        "path": "scripts/tests/test_pycore_config.py",
+        "git_mode": "100644",
+        "sha256": "7f0581510f36208b3c086b3e652f3863878a61498e3b34a54852254376325185",
+        "size": 5463
+      },
+      {
+        "path": "scripts/tests/test_sdd_dispatch.py",
+        "git_mode": "100644",
+        "sha256": "a62db3f89e738c98fe2ec468417ea61b703eb2afbeb2924cbf693d1ec3febf4e",
+        "size": 16116
+      },
+      {
+        "path": "scripts/tests/test_sdd_project.py",
+        "git_mode": "100644",
+        "sha256": "c271bb2df3c73e08954f10c9a8af669e3e4e3d08ad6f6729a7e718810b6abdbb",
+        "size": 20490
+      },
+      {
+        "path": "templates/experience.md",
+        "git_mode": "100644",
+        "sha256": "e7bd84e69369e9cfc234554d4f19ff9a34b8f6904b74794307d5a70f5d044f6d",
+        "size": 1351
+      },
+      {
+        "path": "templates/project/.sdd/experience.md",
+        "git_mode": "100644",
+        "sha256": "e7bd84e69369e9cfc234554d4f19ff9a34b8f6904b74794307d5a70f5d044f6d",
+        "size": 1351
+      },
+      {
+        "path": "templates/project/.sdd/project.json",
+        "git_mode": "100644",
+        "sha256": "0f6c1de0fe5abff45f9e204c452468c1a6218d06042527034befa75108406051",
+        "size": 192
+      },
+      {
+        "path": "templates/project/.sdd/status.json",
+        "git_mode": "100644",
+        "sha256": "aed6592d6764a9b1be9e53a1e7ea4d76988d9e5be8d7d3491094728670804403",
+        "size": 160
+      },
+      {
+        "path": "templates/project/.sdd/work-log.md",
+        "git_mode": "100644",
+        "sha256": "0af98dfe022737a2f2a44f90eb39fcf926604317cabbfe7aa455ffffc998a765",
+        "size": 183
+      },
+      {
+        "path": "templates/project/README.md",
+        "git_mode": "100644",
+        "sha256": "99619f2260ef25acf1136d1a5c7633bd25c02936f2ac4871c4a11def85c564fd",
+        "size": 785
+      },
+      {
+        "path": "templates/project/docs/.gitkeep",
+        "git_mode": "100644",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      {
+        "path": "templates/tasks.json",
+        "git_mode": "100644",
+        "sha256": "b3cf75b3c8050b5cb507c9b5b99960118338835aa57c2cc2af597ed0435d3eee",
+        "size": 5380
+      },
+      {
+        "path": "templates/work-log.md",
+        "git_mode": "100644",
+        "sha256": "57b5c8974901d27415391f9ffc0d40659bcc6a8894459336a3fc702425a164ec",
+        "size": 144
+      }
+    ]
+  },
+  "local_changes_excluded": [
+    "project-registry.json",
+    "learning/technical-terms/index.md"
+  ],
+  "excluded_categories": [
+    "git metadata",
+    "untracked local files",
+    "business project contents",
+    "dependencies",
+    "caches",
+    "runtime outputs"
+  ],
+  "reading_guide": {
+    "origin": "user-provided local reading guide",
+    "file_count": 8,
+    "source_files": [
+      {
+        "path": "01-overview.md",
+        "sha256": "d91452502acaefb4dd9c3f444fe136d46c8757aa09d5f98d0cba00eb512170a7",
+        "size": 4854
+      },
+      {
+        "path": "02-new-project.md",
+        "sha256": "6f5ad89516fb00c1fcc8d164fdc99114842686180b9f9136fdbf1739a65bb3a0",
+        "size": 11665
+      },
+      {
+        "path": "03-roles-and-artifacts.md",
+        "sha256": "de54a14e0b06647a6f8405a41bcdf515348dc9764f6d1793eb98103adf592eaa",
+        "size": 8250
+      },
+      {
+        "path": "04-execution-and-gates.md",
+        "sha256": "96e2c73f673045acd2b6664b9105ba6968e265a75d9a67e350758dc6615a5b84",
+        "size": 8936
+      },
+      {
+        "path": "05-existing-projects.md",
+        "sha256": "ae8efba75de4453bc64dbb62e4476a127f57060c27962df8d4869bf0c58c50c4",
+        "size": 6739
+      },
+      {
+        "path": "06-walkthrough.md",
+        "sha256": "f1157dd73a123f1e9c82364217d9386a6df0c860fcebb08e974ef9c6bac756f9",
+        "size": 6000
+      },
+      {
+        "path": "07-source-map-and-notes.md",
+        "sha256": "6c1fd3bea0a5a512972d3be8771e531c8ed74231b27b1ed4e64eacd20e464558",
+        "size": 17411
+      },
+      {
+        "path": "README.md",
+        "sha256": "2918e650b29b9c5fd74f2261b282012b0cae670868e7ed5e7d8ad3c5210c05ea",
+        "size": 2797
+      }
+    ],
+    "distribution_edits": []
+  }
+}
