@@ -1,6 +1,6 @@
 # SA-mate
 
-> 已发布：底层 SDD 固定源码快照、中文阅读指南与来源说明。融合设计、Runtime 和 Buzz 相关资料继续分批整理；未上传的资料仍标明待上传。
+> 已发布：底层 SDD 固定源码快照、中文阅读指南，以及融合架构、能力与角色设计。领域工具、Runtime 实现和 Buzz 接入资料继续分批整理；未上传的资料仍明确标注。
 
 以 SDD 为方法基础，支持需求、方案和 UI 独立交付，并逐步衔接规划、开发与独立验收的智能体协作框架。
 
@@ -77,30 +77,46 @@ upstream/develop-helper-source.json 逐文件校验清单
 
 ## 2. 融合拆解：哪些保留，哪些改变
 
-SA-mate 将原框架的方法按用途组织为两条路线：
+SA-mate 将 SDD 方法按用途组织为可独立调用的能力，并分开用户协调、持久执行与确定性写入。详细说明从 [融合设计导航](fusion-design/README.md) 进入。
 
-- **独立交付**：只澄清需求、只输出方案、只制作 UI，都可以完成后结束。
-- **工程衔接**：需要实现时，再补齐相关规格、确认、任务规划、开发和独立验收。
+### 两条使用路线
 
-已有材料可以复用，后续工作只补必要缺口。用户未要求继续时，本次交付可以结束。
+- **独立交付**：只澄清需求、只输出方案、只制作 UI，都可以完成后结束；已有材料足够时直接复用。
+- **工程衔接**：需要实现时，再补齐相关规格、用途确认、任务规划、开发和独立验收。
 
-| 角色 | 核心责任 |
-| --- | --- |
-| Main | 理解意图、协调项目与角色、展示成果、收集决定 |
-| 需求角色 | 澄清业务，形成需求或 PRD 候选 |
-| Solution Designer | 形成方案与可追踪的技术契约 |
-| UI 角色 | 页面、原型与演示验证 |
-| Planner | 拆分 Feature、Task 和依赖 |
-| Developer | 在明确范围内实现并自验 |
-| Tester／Verifier | 独立验证并返回证据 |
+用户未要求继续时，本次交付可以结束。编号单元表示建设责任，不要求每次调用都走完全部流程。
+
+### 三层职责
+
+| 层次 | 负责什么 | 设计入口 |
+| --- | --- | --- |
+| 能力与规则 | 需求、方案、UI 的独立交付，以及按需工程衔接 | [00 总体拆解](fusion-design/00-拆解与融合框架.md) |
+| 编排与确定性执行 | 角色与工具授权、持久状态、暂停恢复、版本校验和获授权写入 | [06 角色与工作流运行时](fusion-design/06-角色与工作流运行时.md) |
+| 协作界面 | 用户交互、可信身份、消息、线程与结果展示 | [Main 用户入口与项目协调](fusion-design/Main-Agent-用户入口与项目协调.md) |
+
+### 角色分工
+
+| 角色 | 核心责任 | 详细说明 |
+| --- | --- | --- |
+| Main | 理解意图、协调项目与角色、展示成果、收集决定 | [Main 角色设计](fusion-design/Main-Agent-用户入口与项目协调.md) |
+| 需求角色 | 澄清业务，形成需求或 PRD 候选 | [02 需求能力](fusion-design/02-需求能力.md) |
+| Solution Designer | 形成方案与可追踪的技术契约 | [03 方案能力](fusion-design/03-方案能力.md) |
+| UI 角色 | 页面、原型与演示验证 | [00 独立交付与角色方向](fusion-design/00-拆解与融合框架.md) |
+| Planner | 工程输入就绪后拆分 Feature、Task 和依赖 | [上游 Planner](Develop_Helper/harness-core/agents/planner.md) |
+| Developer | 在明确范围内实现并自验 | [上游 Developer](Develop_Helper/harness-core/agents/developer.md) |
+| Tester／Verifier | 独立验证并返回证据 | [上游 Tester](Develop_Helper/harness-core/agents/tester.md) |
 
 Runtime 单独列为执行组件。角色生成候选与证据，Runtime 和确定性工具负责获授权的状态推进与权威写入。保存、登记、确认、交接、消息发送和下游启动分别判定。
 
-**角色、执行环境、模型是三个维度。** 角色定义职责，执行环境提供会话和工具，模型负责推理与生成。Fizz／Honey 是本项目建设中使用的身份与分工，伙伴可以采用自己的名称和执行环境。
+**角色、执行环境、模型是三个维度。** 角色定义工作职责，执行环境提供会话和工具，模型负责推理与生成；同一个工具可以承载多个隔离角色。
 
-上述角色表描述职责方向；需求、方案、UI 和工程闭环的实际实现与接线程度分别判断。
+### 成果怎样共享和交接
 
-阅读：拆解与融合框架（`fusion-design/00-拆解与融合框架.md`，待上传） · 设计索引与状态来源（`fusion-design/README.md`，待上传） · 能力与工具实现（`buzz-develop-helper/README.md`，待上传）
+- [01 项目与共享资料](fusion-design/01-项目初始化与共享资料.md)：项目身份、资料归属、版本共享和本地／远端边界。
+- [05 成果索引、确认与交接](fusion-design/05-项目成果索引与确认交接.md)：核对真实成果，用准确版本与明确用途确认，交接后验证接收者实际读到的内容。
+- [必要设计依据](fusion-design/README.md)：保留各单元的上游来源、已确认原则、候选建议、历史范围与限制。
+
+上述内容展示设计职责，不能据此推断全部角色和生产链路已经接通。UI 与完整工程闭环仍需相应建设；Main 主文中的候选契约和历史状态按各段范围阅读。本批只发布项目设计，不收录文档整理计划或 Agent 操作手册，也不重新签发实现验收。
 
 ## 3. LangGraph：为什么需要，以及现在怎样跑
 
@@ -139,7 +155,7 @@ Main 入口图处理创建前的补问与项目初始化；创建项目不会自
 
 运行指南需分别说明“离线验证”“限定实验”“真实 Runner 接入”和“持续服务部署”。当前已有限定运行证据，完整生产业务仍需后续接线与验证。
 
-阅读：角色与工作流运行时（`fusion-design/06-角色与工作流运行时.md`，待上传） · PRD 参考图实现（`fusion-runtime-lab/src/fusion_runtime/runtimes/langgraph_runtime.py`，待上传） · Main 入口图实现（`fusion-runtime-lab/src/fusion_runtime/runtimes/main_runtime.py`，待上传） · Main 实施计划（`fusion-runtime-lab/MAIN_RUNTIME_IMPLEMENTATION_PLAN.md`，待上传）
+阅读：[角色与工作流运行时](fusion-design/06-角色与工作流运行时.md) · PRD 参考图实现（`fusion-runtime-lab/src/fusion_runtime/runtimes/langgraph_runtime.py`，待上传） · Main 入口图实现（`fusion-runtime-lab/src/fusion_runtime/runtimes/main_runtime.py`，待上传） · Main 实施计划（`fusion-runtime-lab/MAIN_RUNTIME_IMPLEMENTATION_PLAN.md`，待上传）
 
 ## 4. Buzz：协作宿主接入
 

@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-10-20",
+  "source": "user-provided local fusion-design working tree",
+  "source_baseline": "per-file SHA-256; includes uncommitted and untracked documentation",
+  "source_file_count": 10,
+  "files": [
+    {
+      "source_relative_path": "fusion-design/00-拆解与融合框架.md",
+      "published_relative_path": "fusion-design/00-拆解与融合框架.md",
+      "source_sha256": "cd15f90c7e231b548d4e71379fe435a5a3c491499cec01f7a9c099b3621683a0",
+      "source_bytes": 55540,
+      "published_sha256": "68c383665a7840ade7abe09904a68822ea40eb1e1615178066063987afdf8bd6",
+      "published_bytes": 56447,
+      "editorial_changes": {
+        "excluded_management_refs_as_text": 8,
+        "unpublished_refs_as_text": 28,
+        "rebased_links": 4,
+        "machine_root_replacements": 1
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/01-项目初始化与共享资料.md",
+      "published_relative_path": "fusion-design/01-项目初始化与共享资料.md",
+      "source_sha256": "e2ed741b768ca73367d894969e7b82944ae5d5dd03ef664b35bc4c8fe048db7c",
+      "source_bytes": 29433,
+      "published_sha256": "c12e6181ddac2fb6692f15a0ffbaf3ea269046279d29957a6356268f54ca2496",
+      "published_bytes": 29546,
+      "editorial_changes": {
+        "unpublished_refs_as_text": 3,
+        "machine_root_replacements": 7
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/02-需求能力.md",
+      "published_relative_path": "fusion-design/02-需求能力.md",
+      "source_sha256": "09510457da92df40c51638d4af91e3406a8e14a6f12a80c623435a372af593e5",
+      "source_bytes": 14427,
+      "published_sha256": "9c76c735920f962463cefe923188795b153ad2f27b92f4248c11d8cc8211b8a8",
+      "published_bytes": 14600,
+      "editorial_changes": {
+        "machine_root_replacements": 3
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/03-方案能力.md",
+      "published_relative_path": "fusion-design/03-方案能力.md",
+      "source_sha256": "4b5ecd6aaae68bca811210e290e7f71cfaed3de65237418e1922cd0316efcf61",
+      "source_bytes": 22270,
+      "published_sha256": "2fe22c7322e84e03c79987ca092af96d995a40a256b550753f805748a0f80065",
+      "published_bytes": 22482,
+      "editorial_changes": {
+        "machine_root_replacements": 0
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/05-设计依据与历史记录.md",
+      "published_relative_path": "fusion-design/05-设计依据与历史记录.md",
+      "source_sha256": "2c742498b1d84c9f09c381340f3785dc2f796302cf997b230a84ff231cd23c99",
+      "source_bytes": 14449,
+      "published_sha256": "d81286a9d0af057f8dd0922c0507f95771470f886669ef4d72e02889294ea58f",
+      "published_bytes": 14661,
+      "editorial_changes": {
+        "machine_root_replacements": 0
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/05-项目成果索引与确认交接.md",
+      "published_relative_path": "fusion-design/05-项目成果索引与确认交接.md",
+      "source_sha256": "053205c16e1f6469d3a9937bf87c5b1c54da3392c87d732f60201bdb556c91b6",
+      "source_bytes": 39881,
+      "published_sha256": "7e5f394de02b3b3d74202256cd50d7a2cab1e476e46c2531bf9505928e26adba",
+      "published_bytes": 40131,
+      "editorial_changes": {
+        "excluded_management_refs_as_text": 1,
+        "unpublished_refs_as_text": 1,
+        "machine_root_replacements": 1
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/06-角色与工作流运行时.md",
+      "published_relative_path": "fusion-design/06-角色与工作流运行时.md",
+      "source_sha256": "a6f0efe89d8ebe9a3d4ad88f9e9aa86d928140a004b670af6d54403d686e28e5",
+      "source_bytes": 43376,
+      "published_sha256": "cf3735c87fd83c58fc9fc17ed5edbd9d8e8ddd6c15ba4c79fed87846562c89d7",
+      "published_bytes": 44142,
+      "editorial_changes": {
+        "excluded_management_refs_as_text": 13,
+        "unpublished_refs_as_text": 19,
+        "machine_root_replacements": 0
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/06-设计门禁与历史依据.md",
+      "published_relative_path": "fusion-design/06-设计门禁与历史依据.md",
+      "source_sha256": "3e91716a9674afab8739e29116f300226cfcb7a504fc4d539146b1ae846e83fc",
+      "source_bytes": 59259,
+      "published_sha256": "e3a06d4edf8c9909ca1b34df8d8d190ee36e9d68eeda1461113540a8270a9aac",
+      "published_bytes": 59522,
+      "editorial_changes": {
+        "excluded_management_refs_as_text": 1,
+        "unpublished_refs_as_text": 1,
+        "machine_root_replacements": 0
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_relative_path": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "source_sha256": "da7eab33e39e070e9675f3d4cfbdb251e0eed0eddb0ebbf5f25a7418d059e591",
+      "source_bytes": 139481,
+      "published_sha256": "170d14006b6c741b7abb8a888749c4014e1edbfff23a09d99d60e866cb87f50a",
+      "published_bytes": 139694,
+      "editorial_changes": {
+        "excluded_management_refs_as_text": 6,
+        "unpublished_refs_as_text": 1,
+        "machine_root_replacements": 0
+      }
+    },
+    {
+      "source_relative_path": "fusion-design/module-design-template.md",
+      "published_relative_path": "fusion-design/module-design-template.md",
+      "source_sha256": "23a8e1b4d540331431691ba7b941f080baf1c71395283049043d60dd5a08911e",
+      "source_bytes": 2066,
+      "published_sha256": "8e763aacf56143620ba053709aab6591f2560451f97b295255f3fff816f0bb72",
+      "published_bytes": 2278,
+      "editorial_changes": {
+        "machine_root_replacements": 0
+      }
+    }
+  ],
+  "editorial_policy": [
+    "publishing notes added",
+    "machine roots replaced with documented placeholders",
+    "live Markdown links rebased where destinations are published",
+    "unpublished and external-machine references kept as non-clickable annotated text",
+    "code blocks and quoted inline links kept as source examples, except machine-root substitution",
+    "construction cleanup plans, agent runbooks, and local recovery index excluded; new README provides product design navigation"
+  ],
+  "excluded_categories": [
+    "DOCUMENTATION_CLEANUP_PLAN/",
+    "DOCUMENTATION_CLEANUP_PLAN.md",
+    "agent-rule/",
+    "source README construction/recovery index"
+  ],
+  "unpublished_references": [
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "buzz-develop-helper/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/AGENTS.md",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/desktop/src-tauri/src/managed_agents/discovery/catalog.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/desktop/src-tauri/src/managed_agents/discovery/presets.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-acp/src/lib.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-acp/src/config.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-acp/src/scope.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-agent/src/lib.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-agent/src/config.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-agent/src/hints.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-persona/src/persona.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-dev-mcp/src/",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "${BUZZ_ROOT}/crates/buzz-workflow/src/lib.rs",
+      "kind": "external-machine-source"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/00-拆解与融合框架.md",
+      "published_file": "fusion-design/00-拆解与融合框架.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/01-项目初始化与共享资料.md",
+      "published_file": "fusion-design/01-项目初始化与共享资料.md",
+      "reference": "buzz-develop-helper/adapters/solution-buzz.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/01-项目初始化与共享资料.md",
+      "published_file": "fusion-design/01-项目初始化与共享资料.md",
+      "reference": "buzz-develop-helper/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/01-项目初始化与共享资料.md",
+      "published_file": "fusion-design/01-项目初始化与共享资料.md",
+      "reference": "buzz-develop-helper/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/05-项目成果索引与确认交接.md",
+      "published_file": "fusion-design/05-项目成果索引与确认交接.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/05-项目成果索引与确认交接.md",
+      "published_file": "fusion-design/05-项目成果索引与确认交接.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "PROJECT_STATE.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/FIZZ_DEVELOPMENT_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/HONEY_VERIFICATION_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/HONEY_VERIFICATION_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/FIZZ_DEVELOPMENT_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE3A_LANGGRAPH_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE3A_LANGGRAPH_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE4_LANGGRAPH_ADOPTION_ADR.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE4_LANGGRAPH_ADOPTION_ADR.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE5_BUZZ_SURVEY_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE5_BUZZ_INTERFACE_INVENTORY.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE6_BUZZ_ADAPTER_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE7_EQUIVALENCE_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE8_MIGRATION_CLEANUP_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE8_PRODUCTION_ENABLE_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/tests/reviews/2026-10-14/README.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/PHASE4_LANGGRAPH_ADOPTION_ADR.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/FIZZ_DEVELOPMENT_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/DOCUMENT_EXECUTOR_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/HONEY_VERIFICATION_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-角色与工作流运行时.md",
+      "published_file": "fusion-design/06-角色与工作流运行时.md",
+      "reference": "fusion-design/agent-rule/HONEY_VERIFICATION_RUNBOOK.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-设计门禁与历史依据.md",
+      "published_file": "fusion-design/06-设计门禁与历史依据.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/06-设计门禁与历史依据.md",
+      "published_file": "fusion-design/06-设计门禁与历史依据.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-runtime-lab/BUSINESS_TOOLCHAIN_PLAN.md",
+      "kind": "not-published-in-this-batch"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-design/README.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-design/DOCUMENTATION_CLEANUP_PLAN/Main-Agent-用户入口与项目协调编写计划.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-design/DOCUMENTATION_CLEANUP_PLAN/Main-Agent-首版运行契约编写方案.md",
+      "kind": "excluded-construction-management"
+    },
+    {
+      "source": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "published_file": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "reference": "fusion-design/DOCUMENTATION_CLEANUP_PLAN/Main-Agent-首版运行契约编写计划.md",
+      "kind": "excluded-construction-management"
+    }
+  ],
+  "editorial_counts": {
+    "excluded_management_refs_as_text": 29,
+    "unpublished_refs_as_text": 53,
+    "rebased_links": 4,
+    "machine_root_replacements": 12
+  },
+  "new_business_rules": false,
+  "new_runtime_acceptance": false
+}
