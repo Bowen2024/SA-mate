@@ -6,6 +6,7 @@ SDD（规格驱动开发）将用户目标逐步落实为需求、实现方案�
 
 | 目的 | 阅读入口 |
 | --- | --- |
+| 先看 Develop Helper 架构 | [架构全貌与 SA-mate 复用方式](develop-helper-architecture.md) |
 | 先看整体流程 | [阅读指南](../Develop_Helper_reading-guide/README.md) → [整体架构](../Develop_Helper_reading-guide/01-overview.md) |
 | 理解从需求到交付 | [新项目流程](../Develop_Helper_reading-guide/02-new-project.md) → [完整实例](../Develop_Helper_reading-guide/06-walkthrough.md) |
 | 查角色和成果归属 | [角色与文件](../Develop_Helper_reading-guide/03-roles-and-artifacts.md) |

@@ -57,6 +57,7 @@ Agent 可以在当前对话中承担所选角色，无需每次新建子 Agent�
 
 Develop Helper 提供需求 A、调研 R、方案与 UI 等方法、模板和工程协议。SA-mate 按本次角色和目标采用适用部分；不会因为读取方法而自动启动完整开发流程。
 
+- [Develop Helper 架构](docs/develop-helper-architecture.md)：平台入口、核心规则、角色、项目文件与执行链。
 - [SDD 阅读入口](docs/sdd-foundation.md)：方法、目录与离线检查。
 - [中文阅读指南](Develop_Helper_reading-guide/README.md)：理解原框架并定位原文。
 - [上游来源](docs/upstream.md)：固定版本、快照范围与更新方式。

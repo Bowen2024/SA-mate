@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-11-03",
+  "base_commit": "8d4c69b14a816721a84e42c328cc0f1109444f6c",
+  "scope": "Develop Helper architecture guide and navigation; no upstream source or SA-mate role code changes.",
+  "upstream_commit": "ec75f8f113402be73a415282dd274a8e3513f291",
+  "source_files": [
+    {
+      "path": "Develop_Helper/README.md",
+      "sha256": "2196c0f63f47817686ec674b9a489ed100a66779c1adacf8027faf3e4947bb5e"
+    },
+    {
+      "path": "Develop_Helper/harness-core/router.md",
+      "sha256": "1449e8499336c7f9b1c5356284051d3fb19259614d0726896355129efc9c931a"
+    },
+    {
+      "path": "Develop_Helper/harness-core/protocols/platform-adapters.md",
+      "sha256": "9fd81939ba335fb555bc271e635eaa34e80b58cdfe8c20c73ecdc09aae6b3caa"
+    },
+    {
+      "path": "Develop_Helper/harness-core/protocols/codex-subagents.md",
+      "sha256": "09c5abc623161cdbf9b600db85650faaab50278f98ae13a439f874c339490aed"
+    },
+    {
+      "path": "Develop_Helper/harness-core/protocols/development-loop.md",
+      "sha256": "4ebb29b32b5fd1560fe6391d278c1d5e82da75a9accc7d2173f219dfd9b39b43"
+    },
+    {
+      "path": "Develop_Helper/harness-core/agents/solution-designer.md",
+      "sha256": "ac886924858880c3bf3be0e8cc07b9988e564147174a9bf4673bae61a43e8aef"
+    },
+    {
+      "path": "Develop_Helper/harness-core/agents/planner.md",
+      "sha256": "1f6f18a9242366940de4b09d4228979aa284df75046ba14702545c635094f5bf"
+    },
+    {
+      "path": "Develop_Helper/harness-core/agents/developer.md",
+      "sha256": "92ea47e35efe6b80de036ddc3b5753b679fcdfc8e6e348299a280020d6fa6027"
+    },
+    {
+      "path": "Develop_Helper/harness-core/agents/tester.md",
+      "sha256": "5358ce6b20c7e0a45856ac59935c7f474acb21ca0e8c6bfd863ba115313b435d"
+    },
+    {
+      "path": "Develop_Helper/templates/tasks.json",
+      "sha256": "b3cf75b3c8050b5cb507c9b5b99960118338835aa57c2cc2af597ed0435d3eee"
+    },
+    {
+      "path": "Develop_Helper/pycore/docs/index.md",
+      "sha256": "6072b13258a79daa09fc18b156c152bb66e8a8a782104aba2ba4ff249d087696"
+    },
+    {
+      "path": "Develop_Helper_reading-guide/01-overview.md",
+      "sha256": "d91452502acaefb4dd9c3f444fe136d46c8757aa09d5f98d0cba00eb512170a7"
+    },
+    {
+      "path": "Develop_Helper_reading-guide/03-roles-and-artifacts.md",
+      "sha256": "de54a14e0b06647a6f8405a41bcdf515348dc9764f6d1793eb98103adf592eaa"
+    },
+    {
+      "path": "Develop_Helper_reading-guide/04-execution-and-gates.md",
+      "sha256": "96e2c73f673045acd2b6664b9105ba6968e265a75d9a67e350758dc6615a5b84"
+    },
+    {
+      "path": "Develop_Helper_reading-guide/07-source-map-and-notes.md",
+      "sha256": "6c1fd3bea0a5a512972d3be8771e531c8ed74231b27b1ed4e64eacd20e464558"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "previous_sha256": "e8478c99d5ad83c42a89abad9a7d14d3b20b87413c402f7e47b25d987859b322",
+      "sha256": "c59616e3b4b3907da425fe50c26cc253e3317faa6fd1f892e14db1e69b7961b9",
+      "bytes": 4998
+    },
+    {
+      "path": "docs/architecture.md",
+      "change": "modified",
+      "previous_sha256": "06ec9b64da13872b2758285b0dff5884af9930ee8578f3a279c5d67242bc5f5a",
+      "sha256": "c9f5f24cdd30723d468834267a6b9b9e63252c4bfccbcba6f87c08b8b78db372",
+      "bytes": 5124
+    },
+    {
+      "path": "docs/sdd-foundation.md",
+      "change": "modified",
+      "previous_sha256": "7a47469f8285ebb413dbed335050b8060c573dca8fb46089d1fea0cf68459106",
+      "sha256": "01cb309c10ed25409a46883f8c8b7078c0f3be408d6d1221995e41d4b0d044c6",
+      "bytes": 8355
+    },
+    {
+      "path": "docs/develop-helper-architecture.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9f61004e5343540e0acdbe9d956d6f4ea4d776d988b23547c15c8faad9084c9d",
+      "bytes": 10649
+    }
+  ],
+  "self_excluded": true,
+  "history_policy": "Earlier provenance manifests remain records of their own publication commits; this manifest records the current architecture guide and navigation changes.",
+  "validation_scope": "Documentation links, referenced source hashes, exact publication scope and preservation of upstream and guide files; no business or client acceptance."
+}
