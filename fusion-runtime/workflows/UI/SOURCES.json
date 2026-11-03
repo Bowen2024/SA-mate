@@ -94,7 +94,7 @@
     },
     {
       "file": "README.md",
-      "sha256": "279767d77fd993af45c9e4a25cd41f2613537f3e9fb45f744d97e0ce57e1a5e6"
+      "sha256": "6621172f010dbd1d72270d26be1fd1ecc65591fd55cdb20088f5ec25484b59a6"
     },
     {
       "file": "ui-tools-implementation-plan.md",
@@ -178,5 +178,9 @@
       "sha256": "0f76121267568af09bdbca1af5869cb154c8357ddd1eda386809c76d9abef02c",
       "use": "仅作工程门禁边界依据，不在独立演示中执行"
     }
-  ]
+  ],
+  "flowchart_publication": {
+    "date": "2026-11-03",
+    "change": "Add role flowchart to README only; runtime source, methods and file contracts unchanged."
+  }
 }

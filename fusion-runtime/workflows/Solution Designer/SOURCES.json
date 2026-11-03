@@ -136,7 +136,7 @@
     },
     {
       "file": "README.md",
-      "sha256": "75cf949254b550845c5a43439d166f4fe13b6de4a97225e16758de4115ae17b4"
+      "sha256": "3819d5cd94798b4a12215c80b924ba7bb0bb8f9a193e9b1a9eabe53d959f81e9"
     },
     {
       "file": "solution-tools-implementation-plan.md",
@@ -197,5 +197,9 @@
       "role": "Cursor JSON 配置预览、应用、备份和精确回退",
       "state": "step5_implemented_self_verified"
     }
-  ]
+  ],
+  "flowchart_publication": {
+    "date": "2026-11-03",
+    "change": "Add role flowchart to README only; runtime source, methods and file contracts unchanged."
+  }
 }

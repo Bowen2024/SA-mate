@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-11-03",
+  "base_commit": "145a3aa02b78d02f0c3fdafcd95124709287c2f4",
+  "scope": "Three Mermaid role flowcharts in role READMEs, navigation and exact README adoption hashes; runtime behavior unchanged.",
+  "files": [
+    {
+      "path": "fusion-runtime/workflows/requirements/README.md",
+      "previous_sha256": "8d1dfe97207edc440448663414ef35b7f0d57c2aaf264d454e3a3129f074d110",
+      "sha256": "8d1e6238edf3cefc69ab38bc5e2c826bb94b6d26d8d238c9def234cc90084511",
+      "bytes": 3779
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/README.md",
+      "previous_sha256": "75cf949254b550845c5a43439d166f4fe13b6de4a97225e16758de4115ae17b4",
+      "sha256": "3819d5cd94798b4a12215c80b924ba7bb0bb8f9a193e9b1a9eabe53d959f81e9",
+      "bytes": 3407
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/README.md",
+      "previous_sha256": "279767d77fd993af45c9e4a25cd41f2613537f3e9fb45f744d97e0ce57e1a5e6",
+      "sha256": "6621172f010dbd1d72270d26be1fd1ecc65591fd55cdb20088f5ec25484b59a6",
+      "bytes": 3767
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/SOURCES.json",
+      "previous_sha256": "fd557db7f5435faa79533ee1b572d0e26044b6c07d30e934130a5f5bc09050f4",
+      "sha256": "449763f04969d8c32ea15640e689f6b5e44296d4a57585fad5c74e67c41ec877",
+      "bytes": 8124
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/SOURCES.json",
+      "previous_sha256": "b02d5d04e60aef3a380cb184d5fd33c71745dafe39e341c5beb7697e1701ad45",
+      "sha256": "25715f0c3f41ca6cd7fa9f13e5239fa66fc645c8b66eb89e6ea4f557d4131f1f",
+      "bytes": 8409
+    },
+    {
+      "path": "fusion-runtime/README.md",
+      "previous_sha256": "601d38e8895a20ce9d69fd2020a77ce5ac3a21ca016ad4caf39814fa8c9c576b",
+      "sha256": "365ba6f1f9cbe4fe3f907314955f957b5c6d7328b53b04f4851effa46d88d6b8",
+      "bytes": 1643
+    }
+  ],
+  "source_references": [
+    {
+      "path": "fusion-runtime/workflows/requirements/requirements.md",
+      "sha256": "22cd486c52ff146157a70fc8a961ec00de3a82b2810ce1d2975f97b7acc3ce4c"
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/agent-file-workflow.md",
+      "sha256": "b2247c9e92ffe65d5761ec05385dbc887181cabc0a09702c98b5e79f9751e355"
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-design.md",
+      "sha256": "8618b8f1c855c94034db93cf5aa2e76338728ff619e1e6c943e62397af85b229"
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/agent-file-workflow.md",
+      "sha256": "eb31baa1004b4672e4c378dadb777a639e5de9e7179c4af89854bb393273ae9a"
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-design.md",
+      "sha256": "af5c7ac127310ca825ab6511b779b24642ad3d08551c409580e6fd6b35b2535f"
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/agent-file-workflow.md",
+      "sha256": "e6aac8661d19b4cc07f289d2536235b0deb9d89e0f893415f488ee9d6c55c0f9"
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-tools-implementation-plan.md",
+      "sha256": "23e9e39c00c0d76f04940f57e1bcb6ce7dec2f590ab10883c7a35eb5644a11b7"
+    }
+  ],
+  "self_excluded": true,
+  "validation_scope": "Flowchart semantics, Markdown structure, local links and service baseline loading; no new business acceptance.",
+  "validation": {
+    "mermaid_blocks": 3,
+    "local_links": 671,
+    "clean_install_stdio_services": 3,
+    "upstream_entries": 250,
+    "default_read_tool_counts": [
+      3,
+      2,
+      3
+    ],
+    "runtime_python_changes": false,
+    "solution_regression_tests": 60,
+    "solution_regression_exit_code": 0
+  }
+}
