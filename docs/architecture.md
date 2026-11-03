@@ -2,6 +2,10 @@
 
 更新日期：2026-11-03。当前主线为 SDD 方法＋独立角色＋Agent＋MCP 文件工具＋项目成果。当前阶段不采用 LangGraph，不建设独立工作流运行时、Agent Runner、常驻 Host 或自动多角色调度。
 
+![SA-mate 当前架构：用户是左上方的项目入口](assets/current-architecture.svg)
+
+左上方用户入口接收项目、目标、材料与操作意图；主流程从左向右展开，下方为角色规则和方法支持。
+
 ## 方法基础
 
 Develop Helper 提供统一的入口规则、阶段方法、执行角色、协议、项目脚本与模板。SA-mate 按独立交付用途采用相关方法，并以 MCP 工具管理成果。原框架的分层、执行链和文件追踪见[Develop Helper 架构](develop-helper-architecture.md)；两者的项目元信息和推进方式在该文第 8 节分别说明。

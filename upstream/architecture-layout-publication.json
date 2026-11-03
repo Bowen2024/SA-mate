@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-11-03",
+  "base_commit": "b52c7350917b4576be9cfe8856d1419114f13446",
+  "scope": "Architecture diagram layout and navigation only. Highlight the user entry in the upper left, show the main flow left to right and supporting methods below. Preserve all existing component relationships.",
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "previous_sha256": "2b5ad35deef40f5220b89a6b726f1bb74d3aaef452f76fa1c84af73269ca5872",
+      "sha256": "5aa3da81f1a948017e83ef80a33f55f04f8914f68fc93f9abe3d977aa79d6078",
+      "bytes": 4580
+    },
+    {
+      "path": "docs/architecture.md",
+      "change": "modified",
+      "previous_sha256": "629fabcfab053f5dc224ccd760af71d534584b149fd67a9befe3eb9767a9120f",
+      "sha256": "11486dfe6e0607be0e53f6d79da8310c9691ce6a23375c1b9d416c0746cdebea",
+      "bytes": 5398
+    },
+    {
+      "path": "docs/assets/current-architecture.svg",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d43c83c3310651b05e3b66023ea1bb27ddced4f97baa42a69eaeb0ca7300e10a",
+      "bytes": 5113
+    }
+  ],
+  "self_excluded": true,
+  "validation_scope": "SVG structure, visual rendering and local links; no runtime code or behavior changes.",
+  "validation": {
+    "upper_left_entry_geometry": "passed",
+    "component_relationships": "four bidirectional main links and two method/role support links retained",
+    "raster_preview": "rendered and visually inspected",
+    "local_links": 673,
+    "runtime_changes": false
+  }
+}
