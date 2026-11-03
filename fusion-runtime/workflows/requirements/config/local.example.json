@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "upstream_root": "/absolute/path/to/Develop_Helper",
+  "projects_root": "/absolute/path/to/my_mind",
+  "project_directories": {}
+}

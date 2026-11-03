@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "local_links": [
+    {
+      "path": "methods/develop-helper",
+      "raw_target": "../../../../Develop_Helper",
+      "resolved_relative_to_workspace": "Develop_Helper",
+      "access": "explicit_read_only_by_workflow_not_OS_enforced"
+    }
+  ],
+  "local_copies": [
+    {
+      "file": "templates/ui-style-template.md",
+      "source": "../../../Develop_Helper/harness-core/skills/ui-design-standard/references/ui-style-template.md",
+      "source_sha256": "cdcaab1231a873928e5bc4b90fcedd1970c0c5da77ac8424fdd92a51fead9cea",
+      "copy_sha256": "6cc415b510f00df55ae2fe09edfa01d50c782749d6a98034418fe1345885d084",
+      "maintenance_owner": "UI",
+      "copied_and_adapted_on": "2026-11-02",
+      "adaptations": [
+        "保留文档头部、设计目标、全局视觉、组件、逐页设计、使用与验收骨架。",
+        "PRD／AC 或可定位场景双来源；不伪造需求编号或强制前置完整 PRD。",
+        "补充展示主线、前端实际／模拟／未实现、跨页状态、重复操作、刷新、本地存储与重置。",
+        "代表页面反馈与渐进完善；保留已有设计，局部修改不重做方向选择。",
+        "实际启动与演示步骤由演示 README 维护；设计记录检查版本与未验项。",
+        "保持 Draft，用户反馈不自动标 Confirmed、签正式确认或派发下游。",
+        "新增来源、版本与继续位置，明确隔离试验和受控保存的差别。"
+      ]
+    }
+  ],
+  "planned_shared_dependencies": [
+    {
+      "path": "../requirements/file_tools/__init__.py",
+      "sha256_at_inventory": "280ecab1b265972ec9b4dd0f3b8a9a698d892f389649ed1526dfd6b6963a5c0a",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/check_foundation.py",
+      "sha256_at_inventory": "43ed014b387126328b47d676da0779a5780b3f9038d19ba379ea2df7c2953f7b",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/project_state.py",
+      "sha256_at_inventory": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/project_init.py",
+      "sha256_at_inventory": "1b7470a796fafecbd34ee2c9c5552155dcb2f2429885fc1876b6b82bec35ab14",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/requirements.py",
+      "sha256_at_inventory": "c9b06e2f3fa0e18a903c8d47077538628e151172e97a7698a9c773d3db299af8",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/project_info.py",
+      "sha256_at_inventory": "a2891cb7fe4c06d08923b85ef068f9eafab8fcb21728c8e1a968990f3afec9be",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/artifact_records.py",
+      "sha256_at_inventory": "a4fff1ee80244707553f9fefd68cc63a86d441117d55ae68af9bcc245d4b1fb3",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/confirmation_records.py",
+      "sha256_at_inventory": "7d390ca9ffa7024bbe1909f695c9835181c17b024d556aceb3b468d9fba9d83e",
+      "state": "step1_verified_not_UI_runtime_connected"
+    },
+    {
+      "path": "../requirements/file_tools/recovery.py",
+      "sha256_at_inventory": "2c7dd4b78a7970a2f77423734232982ea15512f80febdb7988d0317816462c86",
+      "state": "step1_verified_not_UI_runtime_connected"
+    }
+  ],
+  "sync_policy": "手动核对来源与实际差异后更新；不自动覆盖副本、换源、改上游或刷新锁。SOURCES.json 不包含自身摘要。",
+  "recorded_on": "2026-11-03",
+  "publication": "reviewed repository release; source history identified by publication manifest",
+  "configuration_dependency": {
+    "foundation": "../requirements",
+    "local_config": "../requirements/config/local.json",
+    "lock_path": "../requirements/upstream-lock.json",
+    "policy": "Local config is not published. Use repository setup instructions."
+  },
+  "local_documents": [
+    {
+      "file": "ui-design.md",
+      "sha256": "af5c7ac127310ca825ab6511b779b24642ad3d08551c409580e6fd6b35b2535f"
+    },
+    {
+      "file": "agent-file-workflow.md",
+      "sha256": "e6aac8661d19b4cc07f289d2536235b0deb9d89e0f893415f488ee9d6c55c0f9"
+    },
+    {
+      "file": "README.md",
+      "sha256": "279767d77fd993af45c9e4a25cd41f2613537f3e9fb45f744d97e0ce57e1a5e6"
+    },
+    {
+      "file": "ui-tools-implementation-plan.md",
+      "sha256": "23e9e39c00c0d76f04940f57e1bcb6ce7dec2f590ab10883c7a35eb5644a11b7"
+    },
+    {
+      "file": "ui-tools-test-checklist.md",
+      "sha256": "d9b1a2602d5e357d3bc28a6ca71b7a5e40975ceb751aa7a060d21c35fa0fa79c"
+    }
+  ],
+  "runtime_sources": {
+    "policy": "ui-tools-v1 运行源码采用记录；加载器启动及每次工具调用按这些摘要强制核对，变更必须先人工更新本记录，不允许运行时自动重写。",
+    "contract_version": "ui-tools-v1",
+    "stage": "step5_gate2_accept_versions_receipts_recovery_implemented",
+    "files": [
+      {
+        "path": "mcp_server.py",
+        "sha256": "f7f238f7e23fefe8a648b85f785004762b234586a709c4e4db4000140689b7b3"
+      },
+      {
+        "path": "shared_loader.py",
+        "sha256": "c15d0f1e1203482694e2775859b405258bbe0553fd49010f4be5e1b56c24ffaf"
+      },
+      {
+        "path": "file_tools/__init__.py",
+        "sha256": "9e6cba607facbb991a58c766371388385481f70d61929240fc37f1ef15a5cba7"
+      },
+      {
+        "path": "file_tools/context.py",
+        "sha256": "1302955037294fcf16f073d4c76b2f6e7a8abd36785adf32320c3ce624199383"
+      },
+      {
+        "path": "file_tools/versions.py",
+        "sha256": "8e52b3ce630e300a7657251aa41457da4535aeb0e6c2fe2a226c6e2986a071ed"
+      },
+      {
+        "path": "file_tools/transactions.py",
+        "sha256": "191d059cfaf5cb9c67d8bd00a6494759332ce49ef1ea6113d384d6a76803e1f1"
+      },
+      {
+        "path": "file_tools/workspace.py",
+        "sha256": "c22e462c1dcd39cfa489d0df346bf3e760f9e7d4261f984b2241bf300cd04b7f"
+      }
+    ]
+  },
+  "adopted_upstream_snapshot": {
+    "schema_version": 1,
+    "policy": "source-tree-v1-no-projects-dependencies-git-cache-no-follow",
+    "entry_count": 250,
+    "sha256": "627de2a5d74251154cb1ed138b3d102bfa6ad320940e7c7543ae6012ef10d134",
+    "lock_path": "../requirements/upstream-lock.json",
+    "checked_on": "2026-11-03",
+    "publication_review": "Two excluded personal-state files; methods unchanged."
+  },
+  "upstream_files": [
+    {
+      "id": "phase_B",
+      "path": "methods/develop-helper/harness-core/skills/sdd-product-design/phase-B.md",
+      "source_path": "../../../Develop_Helper/harness-core/skills/sdd-product-design/phase-B.md",
+      "sha256": "1656f406355959050842e1c92bfba781503c33225ee40dfb564c51769611edce",
+      "use": "页面、交互与原型检查方法；入口前提、回写和自动派发由角色适配"
+    },
+    {
+      "id": "design_method",
+      "path": "methods/develop-helper/harness-core/skills/ui-design-standard/SKILL.md",
+      "source_path": "../../../Develop_Helper/harness-core/skills/ui-design-standard/SKILL.md",
+      "sha256": "6fad7c07f39c49b75314635199f9a8dcaa2570dcb7c3af45260dcb6394f5f9f1",
+      "use": "设计分析与逐页方法；由融合角色组织实际制作和检查"
+    },
+    {
+      "id": "style_template",
+      "path": "methods/develop-helper/harness-core/skills/ui-design-standard/references/ui-style-template.md",
+      "source_path": "../../../Develop_Helper/harness-core/skills/ui-design-standard/references/ui-style-template.md",
+      "sha256": "cdcaab1231a873928e5bc4b90fcedd1970c0c5da77ac8424fdd92a51fead9cea",
+      "use": "本地模板的原始复制来源"
+    },
+    {
+      "id": "frontend_gate_boundary",
+      "path": "methods/develop-helper/harness-core/protocols/frontend-gate.md",
+      "source_path": "../../../Develop_Helper/harness-core/protocols/frontend-gate.md",
+      "sha256": "0f76121267568af09bdbca1af5869cb154c8357ddd1eda386809c76d9abef02c",
+      "use": "仅作工程门禁边界依据，不在独立演示中执行"
+    }
+  ]
+}

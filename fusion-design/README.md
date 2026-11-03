@@ -21,6 +21,6 @@
 | [06 设计门禁与历史依据](06-设计门禁与历史依据.md) | 原运行时设计来源、建议与历史证据 |
 | [单元设计模板](module-design-template.md) | 原建设文档的组织方式 |
 
-三个现行角色的主文档与实现位于开发工作区的 `fusion-runtime/workflows/`，尚未随本批发布；不把本目录的旧主文当作当前可直接使用的角色提示词。
+三个现行角色的主文档与实现已在[角色目录](../fusion-runtime/README.md)另批发布；不把本目录的旧主文当作当前可直接使用的角色提示词。
 
 原发布范围和路径处理见[历史发布说明](../docs/fusion-design-publication.md)。`upstream/fusion-design-source.json` 记录 2026-10-20 当次发布的摘要；本次历史标识及当前说明的变更摘要另见[本次发布记录](../upstream/current-architecture-publication.json)。

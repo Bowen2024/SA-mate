@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "local_links": [
+    {
+      "file": "methods/develop-helper",
+      "target": "../../../../Develop_Helper",
+      "resolves_to": "Develop_Helper",
+      "purpose": "方案直接方法入口，不经 requirements 或旧 upstream 软链串接"
+    },
+    {
+      "file": "templates/research-template.md",
+      "target": "../methods/develop-helper/harness-core/skills/sdd-product-design/references/research-template.md",
+      "resolves_to": "Develop_Helper/harness-core/skills/sdd-product-design/references/research-template.md",
+      "purpose": "上游调研模板入口，不维护副本"
+    }
+  ],
+  "local_copies": [
+    {
+      "file": "templates/tech-spec-template.md",
+      "source": "buzz-develop-helper/capabilities/solution-tech-spec-template.md",
+      "source_sha256": "5bbb37eb60266d3ab7cb201b6def58516edfbbc362a306ca7ce79d9d913eea6a",
+      "copy_sha256": "5bbb37eb60266d3ab7cb201b6def58516edfbbc362a306ca7ce79d9d913eea6a",
+      "copy_mode": "byte-for-byte",
+      "content_changes": [],
+      "maintenance": "本地文件为本角色唯一工程模板维护位置；旧模板继续服务原使用方，人工核对后同步",
+      "usage_adaptations": "候选不含模板顶部受管 YAML；独立使用的 Main 用途建议、统一编号与深度裁剪在 solution-design.md 第 5.1 节说明，不改写复制内容"
+    }
+  ],
+  "planned_shared_dependencies": [
+    {
+      "path": "../requirements/file_tools/__init__.py",
+      "sha256_at_inventory": "280ecab1b265972ec9b4dd0f3b8a9a698d892f389649ed1526dfd6b6963a5c0a",
+      "symbols": [],
+      "state": "runtime_connected_controlled_alias",
+      "note": "2026-11-01 实施准备补记受控包加载所需入口；原八模块盘点仍保留为历史基线"
+    },
+    {
+      "path": "../requirements/file_tools/check_foundation.py",
+      "sha256_at_inventory": "43ed014b387126328b47d676da0779a5780b3f9038d19ba379ea2df7c2953f7b",
+      "symbols": [
+        "check",
+        "configured_directory",
+        "read_json",
+        "snapshot"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/project_state.py",
+      "sha256_at_inventory": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "symbols": [
+        "project_state_lock",
+        "exclusive_lock",
+        "atomic_replace"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/project_init.py",
+      "sha256_at_inventory": "1b7470a796fafecbd34ee2c9c5552155dcb2f2429885fc1876b6b82bec35ab14",
+      "symbols": [
+        "context",
+        "load_project",
+        "require_project_id",
+        "project_directories"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/requirements.py",
+      "sha256_at_inventory": "c9b06e2f3fa0e18a903c8d47077538628e151172e97a7698a9c773d3db299af8",
+      "symbols": [
+        "read_document",
+        "safe_path",
+        "digest",
+        "LIMIT",
+        "inspect_prd",
+        "validate_source_digests"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/project_info.py",
+      "sha256_at_inventory": "a2891cb7fe4c06d08923b85ef068f9eafab8fcb21728c8e1a968990f3afec9be",
+      "symbols": [
+        "report",
+        "resolve_specification"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/recovery.py",
+      "sha256_at_inventory": "2c7dd4b78a7970a2f77423734232982ea15512f80febdb7988d0317816462c86",
+      "symbols": [
+        "verify_prd_confirmation"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/confirmation_records.py",
+      "sha256_at_inventory": "7d390ca9ffa7024bbe1909f695c9835181c17b024d556aceb3b468d9fba9d83e",
+      "symbols": [
+        "read_decisions",
+        "artifact_version",
+        "validate_snapshot"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    },
+    {
+      "path": "../requirements/file_tools/artifact_records.py",
+      "sha256_at_inventory": "a4fff1ee80244707553f9fefd68cc63a86d441117d55ae68af9bcc245d4b1fb3",
+      "symbols": [
+        "validate_registry",
+        "content_sha"
+      ],
+      "state": "runtime_connected_controlled_alias"
+    }
+  ],
+  "sync_policy": "Manual；来源或本地内容变化时先核对并记录；不自动覆盖原件、副本或刷新锁定基线。角色文档修改后更新其当前摘要。",
+  "recorded_on": "2026-11-03",
+  "publication": "reviewed repository release; source history identified by publication manifest",
+  "configuration_dependency": {
+    "foundation": "../requirements",
+    "local_config": "../requirements/config/local.json",
+    "lock_path": "../requirements/upstream-lock.json",
+    "policy": "Local config is not published. Use repository setup instructions."
+  },
+  "local_documents": [
+    {
+      "file": "solution-design.md",
+      "sha256": "8618b8f1c855c94034db93cf5aa2e76338728ff619e1e6c943e62397af85b229"
+    },
+    {
+      "file": "agent-file-workflow.md",
+      "sha256": "eb31baa1004b4672e4c378dadb777a639e5de9e7179c4af89854bb393273ae9a"
+    },
+    {
+      "file": "README.md",
+      "sha256": "75cf949254b550845c5a43439d166f4fe13b6de4a97225e16758de4115ae17b4"
+    },
+    {
+      "file": "solution-tools-implementation-plan.md",
+      "sha256": "29c48f071c185046289f31e4e7a9094563e067ced39766d04f0ac79fb8730e5e"
+    },
+    {
+      "file": "solution-tools-test-checklist.md",
+      "sha256": "718675d9dec990262cd59cfa3283470d097c65c84a7a46035a55b0c1fccfb9e7"
+    }
+  ],
+  "upstream": {
+    "entrypoint": "methods/develop-helper",
+    "canonical_source": "Develop_Helper",
+    "shared_lock_path": "../requirements/upstream-lock.json",
+    "shared_lock_file_sha256": "277c44c56f4665c9802ef8e68481fede129f8517daa264c19c1de08b94a8af99",
+    "locked_tree": {
+      "schema_version": 1,
+      "policy": "source-tree-v1-no-projects-dependencies-git-cache-no-follow",
+      "entry_count": 250,
+      "sha256": "627de2a5d74251154cb1ed138b3d102bfa6ad320940e7c7543ae6012ef10d134"
+    },
+    "policy": "Reviewed publication snapshot; no automatic baseline refresh."
+  },
+  "implemented_runtime_files": [
+    {
+      "file": "mcp_server.py",
+      "sha256": "0ac05a3793c0619a55fc21e603db0145fd6292acc1e85863726097ab04a2d69d",
+      "role": "独立 stdio MCP；三工具 schema、能力开关、JSON-RPC 分派",
+      "state": "step5_implemented_self_verified"
+    },
+    {
+      "file": "shared_loader.py",
+      "sha256": "8dc9406fea33f98c34653913c05e904b57d0eed865cffd55c8324144e3953e99",
+      "role": "固定 requirements foundation 的受控包加载、来源摘要、配置/锁/双方法入口校验",
+      "state": "step5_implemented_self_verified"
+    },
+    {
+      "file": "file_tools/__init__.py",
+      "sha256": "edcbdcdc286d305612194e67618efffc4c649d39f2ba90c70c3cf3301cf57359",
+      "role": "本地 file_tools 包入口",
+      "state": "step5_implemented_self_verified"
+    },
+    {
+      "file": "file_tools/dependencies.py",
+      "sha256": "6b277e4ec7e9d796f8c058d521afed0e8bf6e94e866e729817b9b1df33b54117",
+      "role": "项目绑定、保护依赖闭包、规范集、登记/快照与事务状态",
+      "state": "step5_implemented_self_verified"
+    },
+    {
+      "file": "file_tools/solution.py",
+      "sha256": "8ae7a405e5e67f0a9fafc93fc279df807b4b97f906663f0cd5f6c37f16d5c117",
+      "role": "上下文读取、结构检查、read_id、双锁 Draft 保存、历史和写后复读",
+      "state": "step5_implemented_self_verified"
+    },
+    {
+      "file": "configure_client.py",
+      "sha256": "c70403d15705a04e6021d66faee67c74d72106559f536491fafa89bdceb1e28c",
+      "role": "Cursor JSON 配置预览、应用、备份和精确回退",
+      "state": "step5_implemented_self_verified"
+    }
+  ]
+}

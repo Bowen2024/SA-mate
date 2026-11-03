@@ -147,6 +147,6 @@ flowchart TD
 
 Develop Helper 的文件驱动开发工作台不要求 LangGraph。SA-mate 当前也不采用 LangGraph；发布上游架构不会恢复已移出的独立运行时、Runner 或常驻 Host 路线。
 
-本次发布提供架构导读和源码导航。上游固定快照与 8 篇阅读指南保持不变，三个 SA-mate 角色的 MCP 源码仍待另批发布。来源版本和许可状态见[上游说明](upstream.md)；本页采用文件及摘要见[本次发布记录](../upstream/develop-helper-architecture-publication.json)。
+本次发布提供架构导读和源码导航。上游固定快照与 8 篇阅读指南保持不变，三个 SA-mate 角色的 MCP 源码与隔离测试已另批发布，入口见[角色目录](../fusion-runtime/README.md)。来源版本和许可状态见[上游说明](upstream.md)；本页采用文件及摘要见[本次发布记录](../upstream/develop-helper-architecture-publication.json)。
 
 返回[SA-mate 首页](../README.md) · [SDD 阅读入口](sdd-foundation.md)

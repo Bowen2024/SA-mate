@@ -1,0 +1,5 @@
+config/local.json
+config/migration-backups/
+__pycache__/
+*.pyc
+.DS_Store

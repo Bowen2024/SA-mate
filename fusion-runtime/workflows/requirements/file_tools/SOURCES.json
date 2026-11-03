@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "copied_on": "2026-10-27",
+  "localized_on": "2026-10-30",
+  "source_root": "buzz-develop-helper/scripts",
+  "files": [
+    {
+      "file": "check_foundation.py",
+      "source": "buzz-develop-helper/scripts/check_foundation.py",
+      "source_sha256": "0cc0f5ea36499af4b35adadd49185011f0861ffe08dd71e47328df071b2f3931",
+      "copy_sha256": "43ed014b387126328b47d676da0779a5780b3f9038d19ba379ea2df7c2953f7b",
+      "adaptations": [
+        "命令行 check 必须显式提供 --foundation",
+        "2026-10-30 本地化：上游入口改为 foundation 内 methods/develop-helper；仅有旧 upstream/develop-helper 布局时明确拒绝，不回退旧目录；锁定格式、内容基线与漂移拒绝不变"
+      ]
+    },
+    {
+      "file": "project_init.py",
+      "source": "buzz-develop-helper/scripts/project_init.py",
+      "source_sha256": "1e17206765a43085139757bcd7fd19df0bd13250e9f157a5486a45908d638556",
+      "copy_sha256": "1b7470a796fafecbd34ee2c9c5552155dcb2f2429885fc1876b6b82bec35ab14",
+      "adaptations": [
+        "包内相对引用；直接脚本调用使用同目录依赖",
+        "命令行必须显式提供 --foundation",
+        "新增接入层 expected_root 固定目录校验；未传时保留原 API 行为",
+        "增加 directory_name 直接目录选择；必须同时固定 expected_root，不扩大 projects_root，也不改写映射配置",
+        "creation_files、create、initialize_existing 增加可选关键字参数 info，经 project_info 校验后把用户已明确的项目选择追加到 project.json；不传时三个文件逐字节不变，prepare_creation 与 PREPARED_KEYS 不扩展"
+      ]
+    },
+    {
+      "file": "project_state.py",
+      "source": "buzz-develop-helper/scripts/project_state.py",
+      "source_sha256": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "copy_sha256": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "adaptations": []
+    },
+    {
+      "file": "requirements.py",
+      "source": "buzz-develop-helper/scripts/requirements.py",
+      "source_sha256": "6b08d6dfe0c9ba7c0eef03e1c73ca5db514b669eb24dd3726f6d0b1e32fdf049",
+      "copy_sha256": "c9b06e2f3fa0e18a903c8d47077538628e151172e97a7698a9c773d3db299af8",
+      "adaptations": [
+        "包内相对引用；直接脚本调用使用同目录依赖",
+        "命令行必须显式提供 --foundation",
+        "新增接入层 expected_root 固定目录校验；未传时保留原 API 行为",
+        "读取与轻量保存透传 directory_name；沿用同一项目锁、版本、历史和复读内核",
+        "inspect_prd 与 save_prd_draft 增加可选关键字参数 expected_root、directory_name 并透传到项目定位；位置参数、PRD 锁、版本检查、历史归档、元数据和原子替换不变"
+      ]
+    },
+    {
+      "file": "artifact_records.py",
+      "source": "buzz-develop-helper/scripts/artifacts.py",
+      "source_sha256": "3874175c7c889f9f94fdb95e30645cd0a6856e8eea415097cb182438a891967d",
+      "copy_sha256": "a4fff1ee80244707553f9fefd68cc63a86d441117d55ae68af9bcc245d4b1fb3",
+      "copied_definitions": [
+        "REGISTRY_SCHEMA_VERSION",
+        "MANIFEST_SCHEMA_VERSION",
+        "KINDS",
+        "MAX_METADATA_BYTES",
+        "MAX_ARTIFACT_BYTES",
+        "SHA256_RE",
+        "VERSION_RE",
+        "ARTIFACT_ID_RE",
+        "TIMESTAMP_RE",
+        "safe_project_file",
+        "read_manifest",
+        "validate_registry",
+        "content_sha"
+      ],
+      "adaptations": [
+        "2026-10-30 本地化：仅复制只读登记校验闭包，定义体逐字一致；不复制 inspect、preview_register、preview_readme、render_managed_block、document_status、artifact_content、empty_registry、main 及 project_init 导入"
+      ]
+    },
+    {
+      "file": "confirmation_records.py",
+      "source": "buzz-develop-helper/scripts/collaboration.py；required_statement 与 _STATEMENT_WHITESPACE 来自 buzz-develop-helper/scripts/trusted_context.py",
+      "source_sha256": "ba9ed556b3ec98ddeb8d7a0c665d0b2791fe9a35082093328cf6fd208b8fc311",
+      "additional_source_sha256": {
+        "trusted_context.py": "1d11f154dcf8af09d65632cd124caf2e0ead4d7c112a5bc4263f11044bdb3f7e"
+      },
+      "copy_sha256": "7d390ca9ffa7024bbe1909f695c9835181c17b024d556aceb3b468d9fba9d83e",
+      "copied_definitions": [
+        "SCHEMA_VERSION",
+        "DECISIONS_PATH",
+        "DECISIONS_START",
+        "DECISIONS_END",
+        "MAX_RECORD_BYTES",
+        "CONFIRMATION_ID_RE",
+        "TIMESTAMP_RE",
+        "EFFECT_BINDING_KEYS",
+        "_STATEMENT_WHITESPACE",
+        "digest",
+        "read_regular",
+        "empty_decisions",
+        "parse_decisions_text",
+        "read_decisions",
+        "required_text",
+        "required_statement",
+        "validate_actor",
+        "validate_effect_binding",
+        "validate_decisions_shape",
+        "artifact_version",
+        "validate_snapshot"
+      ],
+      "adaptations": [
+        "2026-10-30 本地化：仅复制确认记录与快照只读校验闭包，定义体逐字一致；artifacts 改为包内 artifact_records；required_statement 直接取 trusted_context 纯函数，不引入 HMAC、宿主上下文或签发器；不复制 render_decisions、decisions_block、confirmation_map、read_handoffs、validate_handoff、inspect、main 及 project_init 导入；旧 buzz-develop-helper 记录标记保留为数据格式"
+      ]
+    }
+  ],
+  "local_additions": [
+    {
+      "file": "project_info.py",
+      "copy_sha256": "a2891cb7fe4c06d08923b85ef068f9eafab8fcb21728c8e1a968990f3afec9be",
+      "note": "非复制文件：项目选择字段校验、报告与受控补录；复用 project_init 定位与 project_state 锁、原子替换"
+    },
+    {
+      "file": "recovery.py",
+      "copy_sha256": "2c7dd4b78a7970a2f77423734232982ea15512f80febdb7988d0317816462c86",
+      "note": "非复制文件：只读恢复材料与 PRD 确认核验；复用 requirements.read_document 读取项目文件；2026-10-30 起确认核验只用包内 confirmation_records／artifact_records，导入失败返回 unavailable"
+    }
+  ],
+  "local_copies": [
+    {
+      "file": "templates/prd-template.md",
+      "source": "buzz-develop-helper/capabilities/requirements-prd-template.md",
+      "source_sha256": "118f594d9cf1449da6439280e98085af3c56772302591da3e87bb7fe1839bc8f",
+      "copy_sha256": "118f594d9cf1449da6439280e98085af3c56772302591da3e87bb7fe1839bc8f",
+      "note": "逐字节副本；本地版本是 requirements 使用的维护位置，旧模板继续服务原使用方，人工同步"
+    },
+    {
+      "file": "upstream-lock.json",
+      "source": "buzz-develop-helper/upstream-lock.json",
+      "source_sha256": "54397bd30e25f74a1801b298d1dca88916c1daa82cc46551f6bcea7f1f430373",
+      "copy_sha256": "277c44c56f4665c9802ef8e68481fede129f8517daa264c19c1de08b94a8af99",
+      "note": "发布副本采用已核对的仓库固定快照；保留原 source_sha256，copy_sha256 为发布锁摘要。",
+      "publication_adaptation": {
+        "original_lock": {
+          "entry_count": 250,
+          "policy": "source-tree-v1-no-projects-dependencies-git-cache-no-follow",
+          "schema_version": 1,
+          "sha256": "fb97638c61d552d32d677a4e8a161d81efae4ac1adb5bd4638b1ad7e1619f40b"
+        },
+        "published_lock": {
+          "schema_version": 1,
+          "policy": "source-tree-v1-no-projects-dependencies-git-cache-no-follow",
+          "entry_count": 250,
+          "sha256": "627de2a5d74251154cb1ed138b3d102bfa6ad320940e7c7543ae6012ef10d134"
+        },
+        "reviewed_differences": [
+          "project-registry.json",
+          "learning/technical-terms/index.md"
+        ]
+      }
+    },
+    {
+      "file": "config/local.example.json",
+      "source": "buzz-develop-helper/config/local.example.json",
+      "source_sha256": "d05d2c7623a5f1a2105305e48802a6cab6aab3208b07294bf8f8a8e327272bba",
+      "copy_sha256": "d05d2c7623a5f1a2105305e48802a6cab6aab3208b07294bf8f8a8e327272bba",
+      "note": "逐字节副本；本机 config/local.json 不入版本跟踪，由 configure_cursor.py --prepare-local-config-from 从旧配置逐字节生成"
+    }
+  ],
+  "local_links": [
+    {
+      "file": "methods/develop-helper",
+      "target": "../../../../Develop_Helper",
+      "note": "上游方法只读入口，原文只在 Develop_Helper"
+    },
+    {
+      "file": "templates/research-template.md",
+      "target": "../methods/develop-helper/harness-core/skills/sdd-product-design/references/research-template.md",
+      "note": "经本地方法入口指向上游调研模板"
+    }
+  ],
+  "retired_runtime_dependencies": [
+    {
+      "consumer": "recovery.py",
+      "source": "<foundation>/scripts/collaboration.py、artifacts.py 及其依赖",
+      "use": "2026-10-27 至 2026-10-30 恢复读取时动态加载 read_decisions、artifact_version、validate_snapshot、validate_registry、content_sha",
+      "retired_on": "2026-10-30",
+      "replacement": "file_tools/confirmation_records.py、file_tools/artifact_records.py"
+    }
+  ],
+  "sync": "Manual; check source and copy hashes before merging changes."
+}

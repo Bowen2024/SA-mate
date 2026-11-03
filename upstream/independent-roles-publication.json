@@ -1,0 +1,1312 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-11-03",
+  "base_commit": "5b3b984d94b85d8e8fa93d70efc89cfa8078e832",
+  "source_files": [
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/configure_client.py",
+      "source_sha256": "c70403d15705a04e6021d66faee67c74d72106559f536491fafa89bdceb1e28c",
+      "kind": "file",
+      "published_sha256": "c70403d15705a04e6021d66faee67c74d72106559f536491fafa89bdceb1e28c",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/file_tools/__init__.py",
+      "source_sha256": "edcbdcdc286d305612194e67618efffc4c649d39f2ba90c70c3cf3301cf57359",
+      "kind": "file",
+      "published_sha256": "edcbdcdc286d305612194e67618efffc4c649d39f2ba90c70c3cf3301cf57359",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/file_tools/dependencies.py",
+      "source_sha256": "6b277e4ec7e9d796f8c058d521afed0e8bf6e94e866e729817b9b1df33b54117",
+      "kind": "file",
+      "published_sha256": "6b277e4ec7e9d796f8c058d521afed0e8bf6e94e866e729817b9b1df33b54117",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/file_tools/solution.py",
+      "source_sha256": "8ae7a405e5e67f0a9fafc93fc279df807b4b97f906663f0cd5f6c37f16d5c117",
+      "kind": "file",
+      "published_sha256": "8ae7a405e5e67f0a9fafc93fc279df807b4b97f906663f0cd5f6c37f16d5c117",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/mcp_server.py",
+      "source_sha256": "0ac05a3793c0619a55fc21e603db0145fd6292acc1e85863726097ab04a2d69d",
+      "kind": "file",
+      "published_sha256": "0ac05a3793c0619a55fc21e603db0145fd6292acc1e85863726097ab04a2d69d",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/shared_loader.py",
+      "source_sha256": "8dc9406fea33f98c34653913c05e904b57d0eed865cffd55c8324144e3953e99",
+      "kind": "file",
+      "published_sha256": "8dc9406fea33f98c34653913c05e904b57d0eed865cffd55c8324144e3953e99",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/__init__.py",
+      "source_sha256": "9e6cba607facbb991a58c766371388385481f70d61929240fc37f1ef15a5cba7",
+      "kind": "file",
+      "published_sha256": "9e6cba607facbb991a58c766371388385481f70d61929240fc37f1ef15a5cba7",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/context.py",
+      "source_sha256": "1302955037294fcf16f073d4c76b2f6e7a8abd36785adf32320c3ce624199383",
+      "kind": "file",
+      "published_sha256": "1302955037294fcf16f073d4c76b2f6e7a8abd36785adf32320c3ce624199383",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/transactions.py",
+      "source_sha256": "191d059cfaf5cb9c67d8bd00a6494759332ce49ef1ea6113d384d6a76803e1f1",
+      "kind": "file",
+      "published_sha256": "191d059cfaf5cb9c67d8bd00a6494759332ce49ef1ea6113d384d6a76803e1f1",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/versions.py",
+      "source_sha256": "8e52b3ce630e300a7657251aa41457da4535aeb0e6c2fe2a226c6e2986a071ed",
+      "kind": "file",
+      "published_sha256": "8e52b3ce630e300a7657251aa41457da4535aeb0e6c2fe2a226c6e2986a071ed",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/workspace.py",
+      "source_sha256": "c22e462c1dcd39cfa489d0df346bf3e760f9e7d4261f984b2241bf300cd04b7f",
+      "kind": "file",
+      "published_sha256": "c22e462c1dcd39cfa489d0df346bf3e760f9e7d4261f984b2241bf300cd04b7f",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/mcp_server.py",
+      "source_sha256": "f7f238f7e23fefe8a648b85f785004762b234586a709c4e4db4000140689b7b3",
+      "kind": "file",
+      "published_sha256": "f7f238f7e23fefe8a648b85f785004762b234586a709c4e4db4000140689b7b3",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/shared_loader.py",
+      "source_sha256": "c15d0f1e1203482694e2775859b405258bbe0553fd49010f4be5e1b56c24ffaf",
+      "kind": "file",
+      "published_sha256": "c15d0f1e1203482694e2775859b405258bbe0553fd49010f4be5e1b56c24ffaf",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/__init__.py",
+      "source_sha256": "af88a7f9588ad89a3c894f827768dc0411079d71df766c9edce2651fa650fed5",
+      "kind": "file",
+      "published_sha256": "af88a7f9588ad89a3c894f827768dc0411079d71df766c9edce2651fa650fed5",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/__init__.py",
+      "source_sha256": "456de122cce81bd43e62e9471d6e6cc53743dd100c8792414d6a30d364389a15",
+      "kind": "file",
+      "published_sha256": "456de122cce81bd43e62e9471d6e6cc53743dd100c8792414d6a30d364389a15",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/configure_cursor.py",
+      "source_sha256": "95c31f835f1e94a4a4f5d89f061143ee24086492a52205505bae18f9167d3294",
+      "kind": "file",
+      "published_sha256": "95c31f835f1e94a4a4f5d89f061143ee24086492a52205505bae18f9167d3294",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/cursor_mcp.py",
+      "source_sha256": "cd65968ce510c7a37d95832941b69162810fbf9136a34e4ee9749764f406f33b",
+      "kind": "file",
+      "published_sha256": "cd65968ce510c7a37d95832941b69162810fbf9136a34e4ee9749764f406f33b",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/__init__.py",
+      "source_sha256": "280ecab1b265972ec9b4dd0f3b8a9a698d892f389649ed1526dfd6b6963a5c0a",
+      "kind": "file",
+      "published_sha256": "280ecab1b265972ec9b4dd0f3b8a9a698d892f389649ed1526dfd6b6963a5c0a",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/artifact_records.py",
+      "source_sha256": "a4fff1ee80244707553f9fefd68cc63a86d441117d55ae68af9bcc245d4b1fb3",
+      "kind": "file",
+      "published_sha256": "a4fff1ee80244707553f9fefd68cc63a86d441117d55ae68af9bcc245d4b1fb3",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/check_foundation.py",
+      "source_sha256": "43ed014b387126328b47d676da0779a5780b3f9038d19ba379ea2df7c2953f7b",
+      "kind": "file",
+      "published_sha256": "43ed014b387126328b47d676da0779a5780b3f9038d19ba379ea2df7c2953f7b",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/confirmation_records.py",
+      "source_sha256": "7d390ca9ffa7024bbe1909f695c9835181c17b024d556aceb3b468d9fba9d83e",
+      "kind": "file",
+      "published_sha256": "7d390ca9ffa7024bbe1909f695c9835181c17b024d556aceb3b468d9fba9d83e",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/project_info.py",
+      "source_sha256": "a2891cb7fe4c06d08923b85ef068f9eafab8fcb21728c8e1a968990f3afec9be",
+      "kind": "file",
+      "published_sha256": "a2891cb7fe4c06d08923b85ef068f9eafab8fcb21728c8e1a968990f3afec9be",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/project_init.py",
+      "source_sha256": "1b7470a796fafecbd34ee2c9c5552155dcb2f2429885fc1876b6b82bec35ab14",
+      "kind": "file",
+      "published_sha256": "1b7470a796fafecbd34ee2c9c5552155dcb2f2429885fc1876b6b82bec35ab14",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/project_state.py",
+      "source_sha256": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "kind": "file",
+      "published_sha256": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/recovery.py",
+      "source_sha256": "2c7dd4b78a7970a2f77423734232982ea15512f80febdb7988d0317816462c86",
+      "kind": "file",
+      "published_sha256": "2c7dd4b78a7970a2f77423734232982ea15512f80febdb7988d0317816462c86",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/requirements.py",
+      "source_sha256": "c9b06e2f3fa0e18a903c8d47077538628e151172e97a7698a9c773d3db299af8",
+      "kind": "file",
+      "published_sha256": "c9b06e2f3fa0e18a903c8d47077538628e151172e97a7698a9c773d3db299af8",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/solution_test_support.py",
+      "source_sha256": "86cb81aa72ccc8e3ba5783d29545f8790bd0c3116262a26f24be59c0eb011194",
+      "kind": "file",
+      "published_sha256": "86cb81aa72ccc8e3ba5783d29545f8790bd0c3116262a26f24be59c0eb011194",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_cursor_tools.py",
+      "source_sha256": "99b3eb66541e6d416a916f2f7aba09576bcbc787cefebde3521143dd8db58723",
+      "kind": "file",
+      "published_sha256": "99b3eb66541e6d416a916f2f7aba09576bcbc787cefebde3521143dd8db58723",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_file_tools.py",
+      "source_sha256": "d8a62b6d4ef02faae34fd32354e35cebd1421dc66ac0920d65f16e7cb257ed42",
+      "kind": "file",
+      "published_sha256": "d8a62b6d4ef02faae34fd32354e35cebd1421dc66ac0920d65f16e7cb257ed42",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_localization.py",
+      "source_sha256": "390bedbf05ab3656d5b69cd8826ec3d3a02ee4ddcfb7d403a7293c0017c011aa",
+      "kind": "file",
+      "published_sha256": "5ef8d77c35c77b32dd2d5cbce8abbb358fa8cfde2da9edd0f3bb65a4ab231fc6",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_prd_tools.py",
+      "source_sha256": "dd6c60ac601ebb21d4ecc55c8d5b69744e0c73fc41c80491f76129435a40564d",
+      "kind": "file",
+      "published_sha256": "dd6c60ac601ebb21d4ecc55c8d5b69744e0c73fc41c80491f76129435a40564d",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_project_info.py",
+      "source_sha256": "95a47ff356a9830ee548ef23f89b1bb3bed99744779eeb039957d165254a1641",
+      "kind": "file",
+      "published_sha256": "95a47ff356a9830ee548ef23f89b1bb3bed99744779eeb039957d165254a1641",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_recovery.py",
+      "source_sha256": "b1ea6acc01ef0895070ef49ee528c1900f763779bb46bc8e443f226a08f5f246",
+      "kind": "file",
+      "published_sha256": "b1ea6acc01ef0895070ef49ee528c1900f763779bb46bc8e443f226a08f5f246",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_shared_tools.py",
+      "source_sha256": "b6ddfe3e01869e11520bd3dad33e7118301450160e9e38d271f9a51d54cf1c07",
+      "kind": "file",
+      "published_sha256": "b6ddfe3e01869e11520bd3dad33e7118301450160e9e38d271f9a51d54cf1c07",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_client_config.py",
+      "source_sha256": "44c8ef56e46a07f6a0e0a6ea8953eeb89a6a3edd89613e7bc1894dc9f5e657e0",
+      "kind": "file",
+      "published_sha256": "44c8ef56e46a07f6a0e0a6ea8953eeb89a6a3edd89613e7bc1894dc9f5e657e0",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_context_tools.py",
+      "source_sha256": "9faad1f80c93471088812dcad407c0fb29056cf39935bbae94fd6c9e9a135dcd",
+      "kind": "file",
+      "published_sha256": "9faad1f80c93471088812dcad407c0fb29056cf39935bbae94fd6c9e9a135dcd",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_inspect_tools.py",
+      "source_sha256": "1dc1bf6a5a7fa3a67c13b69e449b14ca0be158d3998d1cd48ad4e4fe8b35b013",
+      "kind": "file",
+      "published_sha256": "1dc1bf6a5a7fa3a67c13b69e449b14ca0be158d3998d1cd48ad4e4fe8b35b013",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_isolation.py",
+      "source_sha256": "e409747af91fcd2fd5450ba25466026d984c960b70cc31e0272fcddd38d44647",
+      "kind": "file",
+      "published_sha256": "e409747af91fcd2fd5450ba25466026d984c960b70cc31e0272fcddd38d44647",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_save_tools.py",
+      "source_sha256": "c3e8ccc92c64922e27126eee2d62467b59f1d735a2891d5c31c53caecd3530a6",
+      "kind": "file",
+      "published_sha256": "c3e8ccc92c64922e27126eee2d62467b59f1d735a2891d5c31c53caecd3530a6",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_accept.py",
+      "source_sha256": "4b75856b053466ae4756738038dddc84be08e9935897edc7d02e6f0412456ee9",
+      "kind": "file",
+      "published_sha256": "4b75856b053466ae4756738038dddc84be08e9935897edc7d02e6f0412456ee9",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_context.py",
+      "source_sha256": "79aaf2a391e2050f049b0446d663dd9a7d61d8710bb533bda1f9debc8461326d",
+      "kind": "file",
+      "published_sha256": "79aaf2a391e2050f049b0446d663dd9a7d61d8710bb533bda1f9debc8461326d",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_fixtures.py",
+      "source_sha256": "1b8ff2c3699781f06597612c896f249f3fe531e4ec78d6a11a8216ecfa586b37",
+      "kind": "file",
+      "published_sha256": "1b8ff2c3699781f06597612c896f249f3fe531e4ec78d6a11a8216ecfa586b37",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_history.py",
+      "source_sha256": "7f5add29150bc7439acbaaed26b6bb13c2c4fcea2958c1167b228b9e182e127d",
+      "kind": "file",
+      "published_sha256": "7f5add29150bc7439acbaaed26b6bb13c2c4fcea2958c1167b228b9e182e127d",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_inspect.py",
+      "source_sha256": "10344f2f4709b7ce6cadd9cf8ab0f0127562a96ed81445ac33b86443c9ed6926",
+      "kind": "file",
+      "published_sha256": "10344f2f4709b7ce6cadd9cf8ab0f0127562a96ed81445ac33b86443c9ed6926",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_isolation.py",
+      "source_sha256": "2c141134c6305e6370f5fd4499f54d4296be8d3736d6a607cc71f1965f4a6b45",
+      "kind": "file",
+      "published_sha256": "2c141134c6305e6370f5fd4499f54d4296be8d3736d6a607cc71f1965f4a6b45",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_recovery.py",
+      "source_sha256": "cd7b57081ae2684041a1a924923ebb30bf02867effd5e3eecd83877d688a1550",
+      "kind": "file",
+      "published_sha256": "cd7b57081ae2684041a1a924923ebb30bf02867effd5e3eecd83877d688a1550",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_stdio.py",
+      "source_sha256": "5d56f94c0b1316ca659d2a7db217d966b24d0d7375f974fd7372aa4156747c3d",
+      "kind": "file",
+      "published_sha256": "5d56f94c0b1316ca659d2a7db217d966b24d0d7375f974fd7372aa4156747c3d",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_transactions.py",
+      "source_sha256": "bcc1b5d2c0842154864ee8722aa157cee2de310e6b585f961082c96ed1db79a3",
+      "kind": "file",
+      "published_sha256": "bcc1b5d2c0842154864ee8722aa157cee2de310e6b585f961082c96ed1db79a3",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_workspace.py",
+      "source_sha256": "6e075591989d6fb0f90acfe88132a1015fa5a7e568f6255fcb7525615ba63658",
+      "kind": "file",
+      "published_sha256": "6e075591989d6fb0f90acfe88132a1015fa5a7e568f6255fcb7525615ba63658",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/tests/ui_test_support.py",
+      "source_sha256": "4bf4355224a8b96f92abcb519e82fb03881eb48cf9b7bff8998d556f3264424f",
+      "kind": "file",
+      "published_sha256": "4bf4355224a8b96f92abcb519e82fb03881eb48cf9b7bff8998d556f3264424f",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/.gitignore",
+      "source_sha256": "fd59294fe888f60faf0590fd659bb4e367bd5ab550fffbe22cce4752d7ac1c93",
+      "kind": "file",
+      "published_sha256": "fd59294fe888f60faf0590fd659bb4e367bd5ab550fffbe22cce4752d7ac1c93",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/requirements.md",
+      "source_sha256": "22cd486c52ff146157a70fc8a961ec00de3a82b2810ce1d2975f97b7acc3ce4c",
+      "kind": "file",
+      "published_sha256": "22cd486c52ff146157a70fc8a961ec00de3a82b2810ce1d2975f97b7acc3ce4c",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/agent-file-workflow.md",
+      "source_sha256": "b2247c9e92ffe65d5761ec05385dbc887181cabc0a09702c98b5e79f9751e355",
+      "kind": "file",
+      "published_sha256": "b2247c9e92ffe65d5761ec05385dbc887181cabc0a09702c98b5e79f9751e355",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/references/handoff-boundary.md",
+      "source_sha256": "8eb6917fc55e424badc3ca25378ea00cca47892725fe9f88d5c217b56f84bf96",
+      "kind": "file",
+      "published_sha256": "8eb6917fc55e424badc3ca25378ea00cca47892725fe9f88d5c217b56f84bf96",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/templates/prd-template.md",
+      "source_sha256": "118f594d9cf1449da6439280e98085af3c56772302591da3e87bb7fe1839bc8f",
+      "kind": "file",
+      "published_sha256": "118f594d9cf1449da6439280e98085af3c56772302591da3e87bb7fe1839bc8f",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/templates/research-template.md",
+      "source_sha256": "c8cc4ca86014f1c4be896c5787920dbdce2930000130a5443e533dd7c1d66bf7",
+      "kind": "symlink",
+      "published_sha256": "c8cc4ca86014f1c4be896c5787920dbdce2930000130a5443e533dd7c1d66bf7",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/config/local.example.json",
+      "source_sha256": "d05d2c7623a5f1a2105305e48802a6cab6aab3208b07294bf8f8a8e327272bba",
+      "kind": "file",
+      "published_sha256": "d05d2c7623a5f1a2105305e48802a6cab6aab3208b07294bf8f8a8e327272bba",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/SOURCES.json",
+      "source_sha256": "47ce486fa566aade37c5f9bc5634b5770e19f108be13083076f2266df544d42c",
+      "kind": "file",
+      "published_sha256": "3d33a0f02d26aaff3f62003c3a25c495601b877ac2b27cdceebb724427fb5e77",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/upstream-lock.json",
+      "source_sha256": "54397bd30e25f74a1801b298d1dca88916c1daa82cc46551f6bcea7f1f430373",
+      "kind": "file",
+      "published_sha256": "277c44c56f4665c9802ef8e68481fede129f8517daa264c19c1de08b94a8af99",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/methods/develop-helper",
+      "source_sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "kind": "symlink",
+      "published_sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-design.md",
+      "source_sha256": "c27293fab3ec6933c1e871184100cba9412931cfa7fb1ff41b542cdc6a716cb6",
+      "kind": "file",
+      "published_sha256": "8618b8f1c855c94034db93cf5aa2e76338728ff619e1e6c943e62397af85b229",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/agent-file-workflow.md",
+      "source_sha256": "d05c3fc52b3179c5d8337a9f3454418193f7b02a656bed98dca3557ccdfe782b",
+      "kind": "file",
+      "published_sha256": "eb31baa1004b4672e4c378dadb777a639e5de9e7179c4af89854bb393273ae9a",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-tools-implementation-plan.md",
+      "source_sha256": "0d98fcedbde9fc9b84aaba3c213e8df7e787f6f11120f3d37c60e3c0297b342f",
+      "kind": "file",
+      "published_sha256": "29c48f071c185046289f31e4e7a9094563e067ced39766d04f0ac79fb8730e5e",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-tools-test-checklist.md",
+      "source_sha256": "ee65fe009db2c0fb5587b512dd47517e52ab06993b8848d37ab5e774a0dbc9c7",
+      "kind": "file",
+      "published_sha256": "718675d9dec990262cd59cfa3283470d097c65c84a7a46035a55b0c1fccfb9e7",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/templates/tech-spec-template.md",
+      "source_sha256": "5bbb37eb60266d3ab7cb201b6def58516edfbbc362a306ca7ce79d9d913eea6a",
+      "kind": "file",
+      "published_sha256": "5bbb37eb60266d3ab7cb201b6def58516edfbbc362a306ca7ce79d9d913eea6a",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/templates/research-template.md",
+      "source_sha256": "c8cc4ca86014f1c4be896c5787920dbdce2930000130a5443e533dd7c1d66bf7",
+      "kind": "symlink",
+      "published_sha256": "c8cc4ca86014f1c4be896c5787920dbdce2930000130a5443e533dd7c1d66bf7",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/SOURCES.json",
+      "source_sha256": "0a507c30ac3542b4242935033f060478cf231729ffdf8fa260ff029efcdd74eb",
+      "kind": "file",
+      "published_sha256": "fd557db7f5435faa79533ee1b572d0e26044b6c07d30e934130a5f5bc09050f4",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/methods/develop-helper",
+      "source_sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "kind": "symlink",
+      "published_sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-design.md",
+      "source_sha256": "734c711f8dabc45fd97ba3b205ce45ffd39407b393c38c6c22074635bb72be7a",
+      "kind": "file",
+      "published_sha256": "af5c7ac127310ca825ab6511b779b24642ad3d08551c409580e6fd6b35b2535f",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/agent-file-workflow.md",
+      "source_sha256": "53e4e9474c4cb7eb3792e2efbb0cda97dfb4ba5ba6a61b583a1cc7e029add603",
+      "kind": "file",
+      "published_sha256": "e6aac8661d19b4cc07f289d2536235b0deb9d89e0f893415f488ee9d6c55c0f9",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-tools-implementation-plan.md",
+      "source_sha256": "5da11b8676e876a88aa962c8aac3f1cde6f32d1a7f7a1edeac51ad3ac12fe57a",
+      "kind": "file",
+      "published_sha256": "23e9e39c00c0d76f04940f57e1bcb6ce7dec2f590ab10883c7a35eb5644a11b7",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-tools-test-checklist.md",
+      "source_sha256": "3367c416aa11a81f463302669eca423556e5f144c2931057df35256c56a7158d",
+      "kind": "file",
+      "published_sha256": "d9b1a2602d5e357d3bc28a6ca71b7a5e40975ceb751aa7a060d21c35fa0fa79c",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/templates/ui-style-template.md",
+      "source_sha256": "6cc415b510f00df55ae2fe09edfa01d50c782749d6a98034418fe1345885d084",
+      "kind": "file",
+      "published_sha256": "6cc415b510f00df55ae2fe09edfa01d50c782749d6a98034418fe1345885d084",
+      "adapted": false
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/SOURCES.json",
+      "source_sha256": "f686a8d285c534d01a58dfff360ee1dfc9bc0f339e02397d464f54c6ffd44fe8",
+      "kind": "file",
+      "published_sha256": "b02d5d04e60aef3a380cb184d5fd33c71745dafe39e341c5beb7697e1701ad45",
+      "adapted": true
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/methods/develop-helper",
+      "source_sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "kind": "symlink",
+      "published_sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "adapted": false
+    }
+  ],
+  "upstream_review": {
+    "original_lock": {
+      "entry_count": 250,
+      "policy": "source-tree-v1-no-projects-dependencies-git-cache-no-follow",
+      "schema_version": 1,
+      "sha256": "fb97638c61d552d32d677a4e8a161d81efae4ac1adb5bd4638b1ad7e1619f40b"
+    },
+    "published_lock": {
+      "schema_version": 1,
+      "policy": "source-tree-v1-no-projects-dependencies-git-cache-no-follow",
+      "entry_count": 250,
+      "sha256": "627de2a5d74251154cb1ed138b3d102bfa6ad320940e7c7543ae6012ef10d134"
+    },
+    "differences": [
+      {
+        "path": "project-registry.json",
+        "local_sha256": "6c32c2b813f2cab4c8906942ce064b959e01e2f513948db229e42800c306d531",
+        "published_sha256": "0bd65aaea09b07258132775263271365288176a9f7201f640719e31437016dbf",
+        "reason": "Fixed commit uses blank project registration or learning state; personal state is intentionally excluded."
+      },
+      {
+        "path": "learning/technical-terms/index.md",
+        "local_sha256": "c842748e2d8537617cc9481ed6e191ca6c5ec6b45bee37d4ab74a8325aaf84e5",
+        "published_sha256": "130c334c108b831ecc69d953fda97d982f8cb2bc0dfe3037ec14500148ce95c7",
+        "reason": "Fixed commit uses blank project registration or learning state; personal state is intentionally excluded."
+      }
+    ]
+  },
+  "excluded": [
+    "config/local.json",
+    "configuration backups",
+    "business materials",
+    "workflow archives",
+    "construction dispatch plans",
+    "agent-rule runbooks",
+    "local verification logs"
+  ],
+  "runtime_python_changes": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "f553db23a747935a9f611d0b83e714f74c489a9463eb961381722cbf944f2e36",
+      "sha256": "cf8b5e768ca9efa5c821fb5e3cff449d8cfbdc0485cac238c8e7be9af050b0f9",
+      "bytes": 638
+    },
+    {
+      "path": "README.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "c59616e3b4b3907da425fe50c26cc253e3317faa6fd1f892e14db1e69b7961b9",
+      "sha256": "2b5ad35deef40f5220b89a6b726f1bb74d3aaef452f76fa1c84af73269ca5872",
+      "bytes": 4952
+    },
+    {
+      "path": "docs/architecture.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "c9f5f24cdd30723d468834267a6b9b9e63252c4bfccbcba6f87c08b8b78db372",
+      "sha256": "629fabcfab053f5dc224ccd760af71d534584b149fd67a9befe3eb9767a9120f",
+      "bytes": 5164
+    },
+    {
+      "path": "docs/current-status.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "6c80c88a4223d4076f9ccebebd327b739e7e0ba84eadebdd5887426ebfc5b760",
+      "sha256": "a9a063089eb3a9d575352f4a734557aec6ac5c0dc22e042fdfccd86cc43476c4",
+      "bytes": 3057
+    },
+    {
+      "path": "docs/develop-helper-architecture.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "9f61004e5343540e0acdbe9d956d6f4ea4d776d988b23547c15c8faad9084c9d",
+      "sha256": "f4d13c83aaa6d3abd214eb40513ab544b33f2b7627bf4aa8214486d3b822fa6d",
+      "bytes": 10716
+    },
+    {
+      "path": "docs/getting-started.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "123f9f0519afd87f4ebb69b16a4abd266202b16d9b6408a9e78908ddbb1d7e24",
+      "sha256": "09877d1f0fc781d3ceedefbb0acbdf3d85fa607d405513c423e82319a2ef3eef",
+      "bytes": 5368
+    },
+    {
+      "path": "docs/independent-roles-publication.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5593806b5b3330659fc95b77522b105aa141e815f5f17fa7f859d268d85a7227",
+      "bytes": 3747
+    },
+    {
+      "path": "docs/roadmap.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "e91cdddff676dffc068b8f47e50bb9e592f0e964f9392833eb77dbdb7783d54f",
+      "sha256": "df252469b8717e491210decbf1ac2ca71602a60fb47262ccaf224e3e8cb8fb57",
+      "bytes": 2234
+    },
+    {
+      "path": "docs/sdd-foundation.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "01cb309c10ed25409a46883f8c8b7078c0f3be408d6d1221995e41d4b0d044c6",
+      "sha256": "44cedc60b20c3b607673cc92ef248dcdaf016a6b1373ee0575641ff830ed6955",
+      "bytes": 8343
+    },
+    {
+      "path": "fusion-design/README.md",
+      "kind": "file",
+      "change": "modified",
+      "previous_sha256": "5d1d2501f66cd72b9418d1a7e2e2624468ecc43505af5637a34ced9e5b4e5880",
+      "sha256": "35fa29bc5ff1c6289fab5e6590b9c62d388656509d2613ba2c49d8e5d7e9e898",
+      "bytes": 2497
+    },
+    {
+      "path": "fusion-runtime/README.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "601d38e8895a20ce9d69fd2020a77ce5ac3a21ca016ad4caf39814fa8c9c576b",
+      "bytes": 1460
+    },
+    {
+      "path": "fusion-runtime/tests/solution_test_support.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "86cb81aa72ccc8e3ba5783d29545f8790bd0c3116262a26f24be59c0eb011194",
+      "bytes": 23806
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_cursor_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "99b3eb66541e6d416a916f2f7aba09576bcbc787cefebde3521143dd8db58723",
+      "bytes": 23156
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_file_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d8a62b6d4ef02faae34fd32354e35cebd1421dc66ac0920d65f16e7cb257ed42",
+      "bytes": 9279
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_localization.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5ef8d77c35c77b32dd2d5cbce8abbb358fa8cfde2da9edd0f3bb65a4ab231fc6",
+      "bytes": 36960
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_prd_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dd6c60ac601ebb21d4ecc55c8d5b69744e0c73fc41c80491f76129435a40564d",
+      "bytes": 42155
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_project_info.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "95a47ff356a9830ee548ef23f89b1bb3bed99744779eeb039957d165254a1641",
+      "bytes": 34705
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_recovery.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b1ea6acc01ef0895070ef49ee528c1900f763779bb46bc8e443f226a08f5f246",
+      "bytes": 14841
+    },
+    {
+      "path": "fusion-runtime/tests/test_requirements_shared_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b6ddfe3e01869e11520bd3dad33e7118301450160e9e38d271f9a51d54cf1c07",
+      "bytes": 11100
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_client_config.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "44c8ef56e46a07f6a0e0a6ea8953eeb89a6a3edd89613e7bc1894dc9f5e657e0",
+      "bytes": 14728
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_context_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9faad1f80c93471088812dcad407c0fb29056cf39935bbae94fd6c9e9a135dcd",
+      "bytes": 22177
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_inspect_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1dc1bf6a5a7fa3a67c13b69e449b14ca0be158d3998d1cd48ad4e4fe8b35b013",
+      "bytes": 7306
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_isolation.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e409747af91fcd2fd5450ba25466026d984c960b70cc31e0272fcddd38d44647",
+      "bytes": 8236
+    },
+    {
+      "path": "fusion-runtime/tests/test_solution_save_tools.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c3e8ccc92c64922e27126eee2d62467b59f1d735a2891d5c31c53caecd3530a6",
+      "bytes": 21626
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_accept.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4b75856b053466ae4756738038dddc84be08e9935897edc7d02e6f0412456ee9",
+      "bytes": 26756
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_context.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "79aaf2a391e2050f049b0446d663dd9a7d61d8710bb533bda1f9debc8461326d",
+      "bytes": 16232
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_fixtures.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1b8ff2c3699781f06597612c896f249f3fe531e4ec78d6a11a8216ecfa586b37",
+      "bytes": 7581
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_history.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7f5add29150bc7439acbaaed26b6bb13c2c4fcea2958c1167b228b9e182e127d",
+      "bytes": 8466
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_inspect.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "10344f2f4709b7ce6cadd9cf8ab0f0127562a96ed81445ac33b86443c9ed6926",
+      "bytes": 21676
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_isolation.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2c141134c6305e6370f5fd4499f54d4296be8d3736d6a607cc71f1965f4a6b45",
+      "bytes": 9760
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_recovery.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cd7b57081ae2684041a1a924923ebb30bf02867effd5e3eecd83877d688a1550",
+      "bytes": 13196
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_stdio.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5d56f94c0b1316ca659d2a7db217d966b24d0d7375f974fd7372aa4156747c3d",
+      "bytes": 13505
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_transactions.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bcc1b5d2c0842154864ee8722aa157cee2de310e6b585f961082c96ed1db79a3",
+      "bytes": 7923
+    },
+    {
+      "path": "fusion-runtime/tests/test_ui_workspace.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6e075591989d6fb0f90acfe88132a1015fa5a7e568f6255fcb7525615ba63658",
+      "bytes": 21664
+    },
+    {
+      "path": "fusion-runtime/tests/ui_test_support.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4bf4355224a8b96f92abcb519e82fb03881eb48cf9b7bff8998d556f3264424f",
+      "bytes": 25342
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/README.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "75cf949254b550845c5a43439d166f4fe13b6de4a97225e16758de4115ae17b4",
+      "bytes": 1450
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/SOURCES.json",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fd557db7f5435faa79533ee1b572d0e26044b6c07d30e934130a5f5bc09050f4",
+      "bytes": 7959
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/agent-file-workflow.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb31baa1004b4672e4c378dadb777a639e5de9e7179c4af89854bb393273ae9a",
+      "bytes": 18099
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/configure_client.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c70403d15705a04e6021d66faee67c74d72106559f536491fafa89bdceb1e28c",
+      "bytes": 10400
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/file_tools/__init__.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "edcbdcdc286d305612194e67618efffc4c649d39f2ba90c70c3cf3301cf57359",
+      "bytes": 43
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/file_tools/dependencies.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6b277e4ec7e9d796f8c058d521afed0e8bf6e94e866e729817b9b1df33b54117",
+      "bytes": 16764
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/file_tools/solution.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8ae7a405e5e67f0a9fafc93fc279df807b4b97f906663f0cd5f6c37f16d5c117",
+      "bytes": 42547
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/mcp_server.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "0ac05a3793c0619a55fc21e603db0145fd6292acc1e85863726097ab04a2d69d",
+      "bytes": 12214
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/methods/develop-helper",
+      "kind": "symlink",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "bytes": 26
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/shared_loader.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8dc9406fea33f98c34653913c05e904b57d0eed865cffd55c8324144e3953e99",
+      "bytes": 10263
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-design.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8618b8f1c855c94034db93cf5aa2e76338728ff619e1e6c943e62397af85b229",
+      "bytes": 22382
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-tools-implementation-plan.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "29c48f071c185046289f31e4e7a9094563e067ced39766d04f0ac79fb8730e5e",
+      "bytes": 66704
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/solution-tools-test-checklist.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "718675d9dec990262cd59cfa3283470d097c65c84a7a46035a55b0c1fccfb9e7",
+      "bytes": 38230
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/templates/research-template.md",
+      "kind": "symlink",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c8cc4ca86014f1c4be896c5787920dbdce2930000130a5443e533dd7c1d66bf7",
+      "bytes": 96
+    },
+    {
+      "path": "fusion-runtime/workflows/Solution Designer/templates/tech-spec-template.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5bbb37eb60266d3ab7cb201b6def58516edfbbc362a306ca7ce79d9d913eea6a",
+      "bytes": 3383
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/README.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "279767d77fd993af45c9e4a25cd41f2613537f3e9fb45f744d97e0ce57e1a5e6",
+      "bytes": 1550
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/SOURCES.json",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b02d5d04e60aef3a380cb184d5fd33c71745dafe39e341c5beb7697e1701ad45",
+      "bytes": 8244
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/agent-file-workflow.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e6aac8661d19b4cc07f289d2536235b0deb9d89e0f893415f488ee9d6c55c0f9",
+      "bytes": 7138
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/__init__.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9e6cba607facbb991a58c766371388385481f70d61929240fc37f1ef15a5cba7",
+      "bytes": 79
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/context.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1302955037294fcf16f073d4c76b2f6e7a8abd36785adf32320c3ce624199383",
+      "bytes": 53024
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/transactions.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "191d059cfaf5cb9c67d8bd00a6494759332ce49ef1ea6113d384d6a76803e1f1",
+      "bytes": 69250
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/versions.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8e52b3ce630e300a7657251aa41457da4535aeb0e6c2fe2a226c6e2986a071ed",
+      "bytes": 12022
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/file_tools/workspace.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c22e462c1dcd39cfa489d0df346bf3e760f9e7d4261f984b2241bf300cd04b7f",
+      "bytes": 36192
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/mcp_server.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f7f238f7e23fefe8a648b85f785004762b234586a709c4e4db4000140689b7b3",
+      "bytes": 21429
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/methods/develop-helper",
+      "kind": "symlink",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "bytes": 26
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/shared_loader.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c15d0f1e1203482694e2775859b405258bbe0553fd49010f4be5e1b56c24ffaf",
+      "bytes": 12308
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/templates/ui-style-template.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6cc415b510f00df55ae2fe09edfa01d50c782749d6a98034418fe1345885d084",
+      "bytes": 9611
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-design.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "af5c7ac127310ca825ab6511b779b24642ad3d08551c409580e6fd6b35b2535f",
+      "bytes": 12655
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-tools-implementation-plan.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "23e9e39c00c0d76f04940f57e1bcb6ce7dec2f590ab10883c7a35eb5644a11b7",
+      "bytes": 45308
+    },
+    {
+      "path": "fusion-runtime/workflows/UI/ui-tools-test-checklist.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d9b1a2602d5e357d3bc28a6ca71b7a5e40975ceb751aa7a060d21c35fa0fa79c",
+      "bytes": 27172
+    },
+    {
+      "path": "fusion-runtime/workflows/__init__.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "af88a7f9588ad89a3c894f827768dc0411079d71df766c9edce2651fa650fed5",
+      "bytes": 69
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/.gitignore",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fd59294fe888f60faf0590fd659bb4e367bd5ab550fffbe22cce4752d7ac1c93",
+      "bytes": 73
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/README.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8d1dfe97207edc440448663414ef35b7f0d57c2aaf264d454e3a3129f074d110",
+      "bytes": 2043
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/__init__.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "456de122cce81bd43e62e9471d6e6cc53743dd100c8792414d6a30d364389a15",
+      "bytes": 278
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/agent-file-workflow.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b2247c9e92ffe65d5761ec05385dbc887181cabc0a09702c98b5e79f9751e355",
+      "bytes": 12290
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/config/local.example.json",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d05d2c7623a5f1a2105305e48802a6cab6aab3208b07294bf8f8a8e327272bba",
+      "bytes": 158
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/configure_cursor.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "95c31f835f1e94a4a4f5d89f061143ee24086492a52205505bae18f9167d3294",
+      "bytes": 18597
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/cursor_mcp.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cd65968ce510c7a37d95832941b69162810fbf9136a34e4ee9749764f406f33b",
+      "bytes": 49270
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/SOURCES.json",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3d33a0f02d26aaff3f62003c3a25c495601b877ac2b27cdceebb724427fb5e77",
+      "bytes": 9181
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/__init__.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "280ecab1b265972ec9b4dd0f3b8a9a698d892f389649ed1526dfd6b6963a5c0a",
+      "bytes": 250
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/artifact_records.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a4fff1ee80244707553f9fefd68cc63a86d441117d55ae68af9bcc245d4b1fb3",
+      "bytes": 9182
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/check_foundation.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "43ed014b387126328b47d676da0779a5780b3f9038d19ba379ea2df7c2953f7b",
+      "bytes": 5203
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/confirmation_records.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7d390ca9ffa7024bbe1909f695c9835181c17b024d556aceb3b468d9fba9d83e",
+      "bytes": 10284
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/project_info.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a2891cb7fe4c06d08923b85ef068f9eafab8fcb21728c8e1a968990f3afec9be",
+      "bytes": 13326
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/project_init.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1b7470a796fafecbd34ee2c9c5552155dcb2f2429885fc1876b6b82bec35ab14",
+      "bytes": 22852
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/project_state.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dbba61ab01f342720116f5a1705f30eaea9ac1b322a077d200014f6d1709defe",
+      "bytes": 4682
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/recovery.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2c7dd4b78a7970a2f77423734232982ea15512f80febdb7988d0317816462c86",
+      "bytes": 9672
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/file_tools/requirements.py",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c9b06e2f3fa0e18a903c8d47077538628e151172e97a7698a9c773d3db299af8",
+      "bytes": 15691
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/methods/develop-helper",
+      "kind": "symlink",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1be5a85dcb3d0ba21afce548bb022b3f9fd70f8de7f9e4631c444b2c3b405d39",
+      "bytes": 26
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/references/handoff-boundary.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8eb6917fc55e424badc3ca25378ea00cca47892725fe9f88d5c217b56f84bf96",
+      "bytes": 2486
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/requirements.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "22cd486c52ff146157a70fc8a961ec00de3a82b2810ce1d2975f97b7acc3ce4c",
+      "bytes": 15833
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/templates/prd-template.md",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "118f594d9cf1449da6439280e98085af3c56772302591da3e87bb7fe1839bc8f",
+      "bytes": 1461
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/templates/research-template.md",
+      "kind": "symlink",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c8cc4ca86014f1c4be896c5787920dbdce2930000130a5443e533dd7c1d66bf7",
+      "bytes": 96
+    },
+    {
+      "path": "fusion-runtime/workflows/requirements/upstream-lock.json",
+      "kind": "file",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "277c44c56f4665c9802ef8e68481fede129f8517daa264c19c1de08b94a8af99",
+      "bytes": 203
+    }
+  ],
+  "self_excluded": true,
+  "validation": {
+    "requirements": 137,
+    "solution": 60,
+    "ui": 153,
+    "aggregate": 350,
+    "aggregate_exit_code": 0,
+    "clean_install_upstream_entries": 250,
+    "clean_install_stdio_roles": 3,
+    "default_tool_counts": [
+      3,
+      2,
+      3
+    ],
+    "scope": "Temporary projects and copied installation; no live client, model, browser or business acceptance.",
+    "local_links": 667,
+    "publication_paths": 90,
+    "preserved_upstream_guide_manifests": 181,
+    "whitespace": {
+      "preserved_source_blank_at_eof": [
+        "fusion-runtime/tests/test_solution_inspect_tools.py",
+        "fusion-runtime/workflows/Solution Designer/file_tools/__init__.py",
+        "fusion-runtime/workflows/Solution Designer/mcp_server.py",
+        "fusion-runtime/workflows/UI/file_tools/__init__.py"
+      ],
+      "reason": "Exact copied source bytes retained; all four files match reviewed original hashes. Other whitespace checks pass."
+    }
+  }
+}

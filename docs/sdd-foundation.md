@@ -101,7 +101,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s Develop_Helper/scri
 PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s Develop_Helper/scripts/tests -p 'test_harness_consistency.py' -v
 ```
 
-这些检查面向框架引用、模板和脚本行为，测试使用临时目录。它们不调用真实模型，不验证业务成果，也不验证尚未发布的角色 MCP 服务。
+这些检查面向框架引用、模板和脚本行为，测试使用临时目录。它们不调用真实模型，不验证业务成果，也不验证角色 MCP 服务。
 
 `test_pycore_config.py` 还需要环境具备相应 PyCore 依赖。本次尝试完整测试发现时，该测试模块因环境缺少 `loguru` 无法导入，未完成验证；未安装依赖或修改上游。PyCore 的依赖入口见 [包声明](../Develop_Helper/pyproject.toml)，已有声明与实际导入的差异另见[原文地图](../Develop_Helper_reading-guide/07-source-map-and-notes.md)。不要为阅读 SDD 方法而先安装整套业务运行依赖。
 
@@ -115,6 +115,6 @@ PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s Develop_Helper/scri
 - 中文阅读指南收录本地提供的 8 篇 Markdown，正文保持原样。
 - 不带入本机未提交的项目登记和学习进度，也不带入真实业务项目、Git 内部数据、依赖、缓存或凭据。
 - 原框架中的历史说明保留原意；例如打包说明与后续流程的差异，已在阅读指南的原文地图中说明。
-- 本批原始发布未包含融合实现或外部协作宿主源码；截至 2026-11-03，三个角色的 MCP 实现仍待发布，当前采用方式和范围见[首页](../README.md)与[当前状态](current-status.md)。
+- 本批原始发布未包含融合实现或外部协作宿主源码；截至 2026-11-03，三个角色的 MCP 实现已另批发布，当前采用方式和范围见[首页](../README.md)与[当前状态](current-status.md)。
 
 返回 [SA-mate 首页](../README.md)。

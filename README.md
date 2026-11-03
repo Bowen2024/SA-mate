@@ -6,7 +6,7 @@
 
 **当前采用 Agent＋MCP 架构。** Agent 读取角色规则和适用方法，推进对话并形成候选；MCP 提供受控文件工具，负责项目核对、版本检查、保存、历史和恢复。当前阶段不建设独立工作流运行时、Runner 或常驻 Host。
 
-> 发布范围（2026-11-03）：本仓库已收录 SDD 固定源码快照、中文阅读指南、当前架构说明和历史设计。三个角色的实现与测试目前保存在开发工作区，尚未随本次说明更新发布；克隆本仓库还不能直接启动三个角色的 MCP 服务。详见[当前状态](docs/current-status.md)。
+> 发布范围（2026-11-03）：已收录 SDD 固定快照、阅读指南、三个独立角色的规则与 MCP 实现、共享基础、必要模板和隔离测试。按[接入说明](docs/getting-started.md)生成本机配置后使用；验证范围与未验项见[当前状态](docs/current-status.md)。
 
 ## 当前架构
 
@@ -37,11 +37,11 @@ Agent 可以在当前对话中承担所选角色，无需每次新建子 Agent�
 
 ## 三个独立角色
 
-| 角色 | 主要工作 | 主要成果 | 当前实现位置（待发布） |
+| 角色 | 主要工作 | 主要成果 | 源码与角色入口 |
 | --- | --- | --- | --- |
-| 需求 | 澄清目标、按需调研，形成或修改需求与 PRD | `docs/requirements.md`、`docs/PRD.md` | `fusion-runtime/workflows/requirements/`；入口 `requirements.md` |
-| 方案 | 根据本次用途讨论工程设计，形成七层技术方案 | `docs/tech-spec.md` | `fusion-runtime/workflows/Solution Designer/`；入口 `solution-design.md` |
-| UI | 根据需求、方案、页面说明或参考制作独立演示 | `docs/ui-style.md`、演示页面及成果清单 | `fusion-runtime/workflows/UI/`；入口 `ui-design.md` |
+| 需求 | 澄清目标、按需调研，形成或修改需求与 PRD | `docs/requirements.md`、`docs/PRD.md` | [需求角色](fusion-runtime/workflows/requirements/requirements.md) |
+| 方案 | 根据本次用途讨论工程设计，形成七层技术方案 | `docs/tech-spec.md` | [方案角色](fusion-runtime/workflows/Solution%20Designer/solution-design.md) |
+| UI | 根据需求、方案、页面说明或参考制作独立演示 | `docs/ui-style.md`、演示页面及成果清单 | [UI 角色](fusion-runtime/workflows/UI/ui-design.md) |
 
 已有材料足够时直接复用。UI 独立演示可从足够的页面或场景说明开始；工程方案保存仍核对其 PRD 和用途确认条件。保存成功、正式确认、成果登记、交接和下游启动分别判断。
 

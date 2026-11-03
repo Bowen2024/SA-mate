@@ -30,3 +30,8 @@ Develop_Helper/Projects_Repo/*
 *.log
 checkpoints/
 logs/
+
+# Role installations: local configuration and backups
+fusion-runtime/workflows/requirements/config/local.json
+fusion-runtime/workflows/requirements/config/migration-backups/
+*.bak
