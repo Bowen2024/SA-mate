@@ -1,5 +1,7 @@
 # 融合设计发布范围
 
+> 历史发布记录：本页及 `upstream/fusion-design-source.json` 记录 2026-10-20 的发布与当次摘要，不代表当前文件摘要。2026-11-03 已调整为 Agent＋MCP 架构，并为历史设计增加标识；当前采用方式见[当前架构](architecture.md)，本次文件摘要见[发布记录](../upstream/current-architecture-publication.json)。
+
 日期：2026-10-20。本批按用户要求发布与 SA-mate 融合架构、能力、角色、成果及执行边界直接相关的设计文档，并更新首页第 2 板块。
 
 ## 收录内容

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-11-03",
+  "base_commit": "660b87cfa780b907291251a30d6591a06c6ebc51",
+  "scope": "Documentation and repository positioning: current Agent + MCP architecture; no role source code or runtime deployment.",
+  "decision": "SDD methods + independent requirements/solution/UI roles + Agent + MCP file tools + project artifacts. Do not adopt LangGraph in the current phase.",
+  "history_policy": "Preserve prior design decisions, original dates and acceptance scopes. Add historical notices; convert three pre-existing links to unpublished implementation files into explicit textual references. Preserve 2026-10-20 source manifests as historical publication records.",
+  "source_evidence": [
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/requirements/requirements-workflow-plan.md",
+      "sha256": "a54b9be92d1ffea894385cfdce4ce9cd74bc234a77bb9d411a9fdf0e35cf5d41",
+      "published": false
+    },
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/requirements/README.md",
+      "sha256": "6a5c7842abe1f3195040e07a2fa10c4c1eed5efa4d352f17d8cde98f99090759",
+      "published": false
+    },
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/Solution Designer/README.md",
+      "sha256": "9e6ecfe48a2c4602487f55548272ac995e5cf2dd4f2f145002ad73434e035e4c",
+      "published": false
+    },
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/Solution Designer/step8-codex-verification.md",
+      "sha256": "68ae1016490bc035b1edc12c33e562c7680415d9769faf10976b500248f9b805",
+      "published": false
+    },
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/UI/README.md",
+      "sha256": "a1fb07f458f560586b31f1965325d50fe8843ce2324f58fd5ee8353789be73cc",
+      "published": false
+    },
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/UI/ui-module-construction-plan.md",
+      "sha256": "20bc2471864e99496f3d1fe1b556eb54ed22c7badef83ef4278b2064e841521e",
+      "published": false
+    },
+    {
+      "workspace_relative_path": "fusion-runtime/workflows/UI/ui-design.md",
+      "sha256": "734c711f8dabc45fd97ba3b205ce45ffd39407b393c38c6c22074635bb72be7a",
+      "published": false
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "previous_sha256": "91c149c1c99295b3ac8ec6467b116d87e44089f417e73e852c0c8bd3eb2092d6",
+      "sha256": "e8478c99d5ad83c42a89abad9a7d14d3b20b87413c402f7e47b25d987859b322",
+      "bytes": 4866
+    },
+    {
+      "path": "docs/architecture.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "06ec9b64da13872b2758285b0dff5884af9930ee8578f3a279c5d67242bc5f5a",
+      "bytes": 4737
+    },
+    {
+      "path": "docs/current-status.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6c80c88a4223d4076f9ccebebd327b739e7e0ba84eadebdd5887426ebfc5b760",
+      "bytes": 3768
+    },
+    {
+      "path": "docs/fusion-design-publication.md",
+      "change": "modified",
+      "previous_sha256": "06ad04f0768bb4451c9efc2b1851ac9b8bc830d6b7abb73898c8d795bffd439e",
+      "sha256": "d6d71df9d6239f227e0bf9fe2ccfd6fcf9c10ff6c52573f00b44ba40ce594f6a",
+      "bytes": 3643
+    },
+    {
+      "path": "docs/getting-started.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "123f9f0519afd87f4ebb69b16a4abd266202b16d9b6408a9e78908ddbb1d7e24",
+      "bytes": 3048
+    },
+    {
+      "path": "docs/roadmap.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e91cdddff676dffc068b8f47e50bb9e592f0e964f9392833eb77dbdb7783d54f",
+      "bytes": 2234
+    },
+    {
+      "path": "docs/sdd-foundation.md",
+      "change": "modified",
+      "previous_sha256": "1b0cf15f51e4d034eb1281cea788889c5a2dacee0f3dc403ebac3a66c86580f1",
+      "sha256": "7a47469f8285ebb413dbed335050b8060c573dca8fb46089d1fea0cf68459106",
+      "bytes": 8249
+    },
+    {
+      "path": "fusion-design/00-拆解与融合框架.md",
+      "change": "modified",
+      "previous_sha256": "68c383665a7840ade7abe09904a68822ea40eb1e1615178066063987afdf8bd6",
+      "sha256": "3758c782018b37e07b6f10324b02d6ee04c350ad1c811ebfa985d7fc2d3a895b",
+      "bytes": 56789
+    },
+    {
+      "path": "fusion-design/01-项目初始化与共享资料.md",
+      "change": "modified",
+      "previous_sha256": "c12e6181ddac2fb6692f15a0ffbaf3ea269046279d29957a6356268f54ca2496",
+      "sha256": "e34659436f78ef0ff1589f96678c406293ddcde0bf242a9b43bc1ef83be0a214",
+      "bytes": 29944,
+      "editorial_changes": [
+        "historical notice",
+        "unpublished implementation links converted to textual references"
+      ]
+    },
+    {
+      "path": "fusion-design/02-需求能力.md",
+      "change": "modified",
+      "previous_sha256": "9c76c735920f962463cefe923188795b153ad2f27b92f4248c11d8cc8211b8a8",
+      "sha256": "1c37a2d1a357cf1520b1cf15503b7c94cf362f711660478db030bd6ad5047866",
+      "bytes": 14942
+    },
+    {
+      "path": "fusion-design/03-方案能力.md",
+      "change": "modified",
+      "previous_sha256": "2fe22c7322e84e03c79987ca092af96d995a40a256b550753f805748a0f80065",
+      "sha256": "01579365071aac62a04e8b1192a180515d1768f5e006dd178bdc55fc21bb7b9d",
+      "bytes": 22824
+    },
+    {
+      "path": "fusion-design/05-设计依据与历史记录.md",
+      "change": "modified",
+      "previous_sha256": "d81286a9d0af057f8dd0922c0507f95771470f886669ef4d72e02889294ea58f",
+      "sha256": "6e0635c02dc44ae689b4231ba90d95adcede1e0a606f91c31072c27f1f267732",
+      "bytes": 15003
+    },
+    {
+      "path": "fusion-design/05-项目成果索引与确认交接.md",
+      "change": "modified",
+      "previous_sha256": "7e5f394de02b3b3d74202256cd50d7a2cab1e476e46c2531bf9505928e26adba",
+      "sha256": "ea2d9bf53a76a917b364d0d2b0987d54cd230e9e93542b53cdb9cd08bd769fd5",
+      "bytes": 40473
+    },
+    {
+      "path": "fusion-design/06-角色与工作流运行时.md",
+      "change": "modified",
+      "previous_sha256": "cf3735c87fd83c58fc9fc17ed5edbd9d8e8ddd6c15ba4c79fed87846562c89d7",
+      "sha256": "0f05f8b08d17f2c353a441ebb4a18d7421ea3c994311e7d31e366d1e0f678203",
+      "bytes": 44484
+    },
+    {
+      "path": "fusion-design/06-设计门禁与历史依据.md",
+      "change": "modified",
+      "previous_sha256": "e3a06d4edf8c9909ca1b34df8d8d190ee36e9d68eeda1461113540a8270a9aac",
+      "sha256": "9962b79ef859d83ca8334771202d91f7476b5686e01ed58adb16918d5b5731fa",
+      "bytes": 59892,
+      "editorial_changes": [
+        "historical notice",
+        "unpublished implementation links converted to textual references"
+      ]
+    },
+    {
+      "path": "fusion-design/Main-Agent-用户入口与项目协调.md",
+      "change": "modified",
+      "previous_sha256": "170d14006b6c741b7abb8a888749c4014e1edbfff23a09d99d60e866cb87f50a",
+      "sha256": "f8feeb19d47ca778386608453acd392c67c1c18b61eb47a8c848e20997994c28",
+      "bytes": 140036
+    },
+    {
+      "path": "fusion-design/README.md",
+      "change": "modified",
+      "previous_sha256": "3f1c1a41ec0f0f23f8bcbf084b363b15d0bc73d5c9d6cf980073cf30e98d2831",
+      "sha256": "5d1d2501f66cd72b9418d1a7e2e2624468ecc43505af5637a34ced9e5b4e5880",
+      "bytes": 2512
+    },
+    {
+      "path": "fusion-design/module-design-template.md",
+      "change": "modified",
+      "previous_sha256": "8e763aacf56143620ba053709aab6591f2560451f97b295255f3fff816f0bb72",
+      "sha256": "9ce7fcb97e1c4378d8c6afc4a6cc4f515120819338aff4bc83f2944f542744eb",
+      "bytes": 2620
+    }
+  ],
+  "self_excluded": true,
+  "validation_scope": "Publication documentation only; not a code, client or business acceptance result."
+}

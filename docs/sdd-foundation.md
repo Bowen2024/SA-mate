@@ -1,6 +1,6 @@
 # 底层 SDD：方法、目录与阅读入口
 
-SDD（规格驱动开发）将用户目标逐步落实为需求、实现方案、任务与验收证据。SA-mate 的方法基础来自 Develop Helper，本板块先提供固定版本的原框架与中文阅读指南。
+SDD（规格驱动开发）将用户目标逐步落实为需求、实现方案、任务与验收证据。SA-mate 的方法基础来自 Develop Helper，本板块提供固定版本的原框架与中文阅读指南；SA-mate 当前采用方式另见[当前架构](architecture.md)。
 
 ## 从哪里开始
 
@@ -37,11 +37,11 @@ flowchart TD
     T -->|通过并满足适用门禁| F[交付成果与证据]
 ```
 
-这张图概括上游方法。具体推进模式、依赖、前端门禁和授权以原文协议为准；SA-mate 对独立交付与 Runtime 的适配另属后续板块。
+这张图概括上游方法。具体推进模式、依赖、前端门禁和授权以原文协议为准；SA-mate 按当前独立角色与 Agent＋MCP 方式采用适用方法，不要求自动走完该主链。
 
 追踪关系为：`用户结果 → REQ → AC → 技术设计/API → UI → Feature → Task → 独立证据`。
 
-## 当前发布的目录
+## 方法资料目录（节选）
 
 ```text
 SA-mate/
@@ -84,11 +84,13 @@ SA-mate/
 | Scripts | 创建或管理项目、计算可派发条件、检查部分契约；脚本检查通过不代表 Agent 已启动或业务已通过 |
 | Templates | 提供成果与记录结构；示例字段不替代真实项目决定 |
 | Specification | 按项目明确选择规范集；`null` 表示不加载规范集 |
-| PyCore | 可选业务程序基础库；其依赖与工作流 Runtime 分开理解 |
+| PyCore | 可选业务程序基础库；其依赖与当前角色文件工具分开理解 |
 
-上游由主会话承担产品沟通与编排，定义四种执行角色。融合层的独立需求角色、UI 角色和独立 Runtime 另有适配设计，不能从上游文件存在推断它们已经全部接通。
+上游由主会话承担产品沟通与编排，定义四种执行角色。SA-mate 的需求、方案和 UI 独立角色按当前主文档及工具约定采用方法，不能从上游文件存在推断其客户端和完整业务链已经接通。
 
 ## 先做离线检查
+
+下列检查入口可在本仓库使用；本页原有测试计数与环境限制属于 2026-10-20 的发布记录，2026-11-03 仅更新架构说明，未重跑这些测试。
 
 在 SA-mate 根目录，用 Python 3.11 或以上执行：
 
@@ -98,7 +100,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s Develop_Helper/scri
 PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s Develop_Helper/scripts/tests -p 'test_harness_consistency.py' -v
 ```
 
-这些检查面向框架引用、模板和脚本行为，测试使用临时目录。它们不调用真实模型，不验证业务成果，也不启动 SA-mate 的 LangGraph 服务。
+这些检查面向框架引用、模板和脚本行为，测试使用临时目录。它们不调用真实模型，不验证业务成果，也不验证尚未发布的角色 MCP 服务。
 
 `test_pycore_config.py` 还需要环境具备相应 PyCore 依赖。本次尝试完整测试发现时，该测试模块因环境缺少 `loguru` 无法导入，未完成验证；未安装依赖或修改上游。PyCore 的依赖入口见 [包声明](../Develop_Helper/pyproject.toml)，已有声明与实际导入的差异另见[原文地图](../Develop_Helper_reading-guide/07-source-map-and-notes.md)。不要为阅读 SDD 方法而先安装整套业务运行依赖。
 
@@ -112,6 +114,6 @@ PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest discover -s Develop_Helper/scri
 - 中文阅读指南收录本地提供的 8 篇 Markdown，正文保持原样。
 - 不带入本机未提交的项目登记和学习进度，也不带入真实业务项目、Git 内部数据、依赖、缓存或凭据。
 - 原框架中的历史说明保留原意；例如打包说明与后续流程的差异，已在阅读指南的原文地图中说明。
-- 本批未发布融合实现、LangGraph Runtime 或 Buzz 源码；首页其他板块继续标明待上传路径。
+- 本批原始发布未包含融合实现或外部协作宿主源码；截至 2026-11-03，三个角色的 MCP 实现仍待发布，当前采用方式和范围见[首页](../README.md)与[当前状态](current-status.md)。
 
 返回 [SA-mate 首页](../README.md)。
